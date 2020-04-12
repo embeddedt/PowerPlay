@@ -1,0 +1,1703 @@
+<?xml version="1.0" encoding="utf-8"?>
+<orangeData>
+	<dPoint num="1" date="November 22" isNewsflash="false" isIntervention="false" daysRemaining="34">
+		<text>In the weeks since the first round of voting, supporters for both sides have been rallying around their candidates, and tensions have been building. After the second round of voting, Mr. Yanukovych is declared the winner. One hundred Canadians and two parliamentary delegations observe the elections. However, there are widespread allegations of vote-rigging and fraud. Several international bodies, including the Ukrainian Canadian Congress, have decried the election and its results.</text>
+		<extraInfo>Election observers are neutral individuals who report on the fairness of election processes and conduct of candidates.</extraInfo>
+		<pressure>50</pressure>
+		<char num="1">
+			<option num="1">Declare victory; offer Yushchenko a role in government</option>
+			<option num="2">Declare tentative victory; wait for publication of official results</option>
+			<option num="3">Declare victory and suppress Yushchenko supporters</option>
+		</char>
+		<char num="2">
+			<option num="1">Concede defeat</option>
+			<option num="2">Protest results; appeal to international community</option>
+			<option num="3">Call on supporters to blockade government offices</option>
+		</char>
+		<results>
+			<choice num="1_1">2_2</choice>
+			<choice num="1_2">2_2</choice>
+			<choice num="1_3">2_4</choice>
+			<choice num="2_1">2_2</choice>
+			<choice num="2_2">2_1</choice>
+			<choice num="2_3">2_3</choice>
+			<choice num="3_1">2_5</choice>
+			<choice num="3_2">2_3</choice>
+			<choice num="3_3">2_3</choice>
+		</results>
+	</dPoint>
+	<dPoint num="2_1" date="November 24" isNewsflash="false" isIntervention="false" daysRemaining="32">
+		<text>Despite complaints of vote-rigging and other inappropriate actions, the Central Election Commission publishes official election results, giving Mr. Yanukovych 49.46% of the vote to Mr. Yushchenko's 46.61%.</text>
+		<extraInfo>Vote rigging, or electoral fraud, is deliberate interference with the process of an election.</extraInfo>
+		<pressure>50</pressure>
+		<char num="1">
+			<option num="1">Agree to a review of election results </option>
+			<option num="2">Maintain claim to victory</option>
+			<option num="3">Suppress Yushchenko supporters</option>
+		</char>
+		<char num="2">
+			<option num="1">Concede defeat</option>
+			<option num="2">Demand court review of results</option>
+			<option num="3">Build a mass of protesters</option>
+		</char>
+		<results>
+			<choice num="1_1">3_3</choice>
+			<choice num="1_2">3_1</choice>
+			<choice num="1_3">3_5</choice>
+			<choice num="2_1">3_4</choice>
+			<choice num="2_2">3_1</choice>
+			<choice num="2_3">3_6</choice>
+			<choice num="3_1">3_4</choice>
+			<choice num="3_2">3_2</choice>
+			<choice num="3_3">3_2</choice>
+		</results>
+	</dPoint>
+	<dPoint num="2_2" date="November 24" isNewsflash="false" isIntervention="true" daysRemaining="32">
+		<intervention>Rogue protesters demand a recount. Yushchenko begins to feel a swell of support and protests the Central Election Commission's initial results.</intervention>
+		<text>Despite complaints of vote-rigging and other inappropriate actions, the Central Election Commission publishes official election results, giving Mr. Yanukovych 49.46% of the vote to Mr. Yushchenko's 46.61%.</text>
+		<extraInfo>Vote rigging, or electoral fraud, is deliberate interference with the process of an election.</extraInfo>
+		<pressure>50</pressure>
+		<char num="1">
+			<option num="1">Agree to a review of election results </option>
+			<option num="2">Maintain claim to victory</option>
+			<option num="3">Suppress Yushchenko supporters</option>
+		</char>
+		<char num="2">
+			<option num="1">Concede defeat</option>
+			<option num="2">Demand court review of results</option>
+			<option num="3">Build a mass of protesters</option>
+		</char>
+		<results>
+			<choice num="1_1">3_3</choice>
+			<choice num="1_2">3_1</choice>
+			<choice num="1_3">3_5</choice>
+			<choice num="2_1">3_4</choice>
+			<choice num="2_2">3_1</choice>
+			<choice num="2_3">3_6</choice>
+			<choice num="3_1">3_4</choice>
+			<choice num="3_2">3_2</choice>
+			<choice num="3_3">3_2</choice>
+		</results>
+	</dPoint>
+	<dPoint num="2_3" date="November 24" isNewsflash="false" isIntervention="false" daysRemaining="32">
+		<text>Despite complaints of vote-rigging and other inappropriate actions, the Central Election Commission publishes official election results, giving Mr. Yanukovych 49.46% of the vote to Mr. Yushchenko's 46.61%.
+
+Yushchenko supporters tried to take action but were quickly shut down by pro-Yanukovych government forces. This has not resolved the underlying issues, and tensions continue.
+</text>
+		<extraInfo>Vote rigging, or electoral fraud, is deliberate interference with the process of an election.</extraInfo>
+		<pressure>70</pressure>
+		<char num="1">
+			<option num="1">Agree to a review of election results</option>
+			<option num="2">Maintain claim to victory</option>
+			<option num="3">Suppress Yushchenko supporters</option>
+		</char>
+		<char num="2">
+			<option num="1">Demand court review</option>
+			<option num="2">Call on other countries for support; begin peaceful protests</option>
+			<option num="3">Continue to call on protesters to blockade government offices</option>
+		</char>
+		<results>
+			<choice num="1_1">3_1</choice>
+			<choice num="1_2">3_5</choice>
+			<choice num="1_3">3_2</choice>
+			<choice num="2_1">3_1</choice>
+			<choice num="2_2">3_6</choice>
+			<choice num="2_3">3_2</choice>
+			<choice num="3_1">3_2</choice>
+			<choice num="3_2">3_2</choice>
+			<choice num="3_3">3_7</choice>
+		</results>
+	</dPoint>
+	<dPoint num="2_4" date="November 24" isNewsflash="false" isIntervention="false" daysRemaining="32">
+		<text>Despite complaints of vote-rigging and other inappropriate actions, the Central Election Commission publishes official election results, giving Mr. Yanukovych 49.46% of the vote to Mr. Yushchenko's 46.61%.
+
+Yushchenko decline's Yanukovych's offer of a role in his government. The deadlock continues.
+</text>
+		<extraInfo>Vote rigging, or electoral fraud, is deliberate interference with the process of an election.</extraInfo>
+		<pressure>50</pressure>
+		<char num="1">
+			<option num="1">Agree to a review of election results</option>
+			<option num="2">Maintain claim to victory</option>
+			<option num="3">Suppress Yushchenko supporters</option>
+		</char>
+		<char num="2">
+			<option num="1">Concede defeat</option>
+			<option num="2">Demand court review of results</option>
+			<option num="3">Call on other countries to support protesters</option>
+		</char>
+		<results>
+			<choice num="1_1">3_3</choice>
+			<choice num="1_2">3_1</choice>
+			<choice num="1_3">3_5</choice>
+			<choice num="2_1">3_4</choice>
+			<choice num="2_2">3_1</choice>
+			<choice num="2_3">3_6</choice>
+			<choice num="3_1">3_4</choice>
+			<choice num="3_2">3_2</choice>
+			<choice num="3_3">3_2</choice>
+		</results>
+	</dPoint>
+	<dPoint num="2_5" date="November 24" isNewsflash="false" isIntervention="false" daysRemaining="32">
+		<text>Rogue protesters demand a recount. Yushchenko begins to feel a swell of support and protests the Central Election Commission's initial results. Yanukovych, under growing international pressure, reconsiders action against Yushchenko supporters.</text>
+		<extraInfo>Vote rigging, or electoral fraud, is deliberate interference with the process of an election.</extraInfo>
+		<pressure>50</pressure>
+		<char num="1">
+			<option num="1">Agree to a review of election results </option>
+			<option num="2">Maintain claim to victory</option>
+			<option num="3">Suppress Yushchenko supporters</option>
+		</char>
+		<char num="2">
+			<option num="1">Concede defeat</option>
+			<option num="2">Demand court review of results</option>
+			<option num="3">Build a mass of protesters</option>
+		</char>
+		<results>
+			<choice num="1_1">3_3</choice>
+			<choice num="1_2">3_1</choice>
+			<choice num="1_3">3_5</choice>
+			<choice num="2_1">3_4</choice>
+			<choice num="2_2">3_1</choice>
+			<choice num="2_3">3_6</choice>
+			<choice num="3_1">3_4</choice>
+			<choice num="3_2">3_2</choice>
+			<choice num="3_3">3_2</choice>
+		</results>
+	</dPoint>
+	<dPoint num="3_1" date="November 26" isNewsflash="true" isIntervention="true" daysRemaining="30">
+		<newsflash>On November 25, the Canadian House of Commons rejected the results of the 2nd ballot, increasing pressure on the Ukrainian government to hold another election.</newsflash>
+		<text>The Supreme Court halts the publication of election results, a move in Yushchenko's favour. His supporters form blockades around government buildings. They remain peaceful, but could turn violent at any time.</text>
+		<extraInfo>Foreign governments often send observers to elections in new democracies, or countries that have a history of election fraud.</extraInfo>
+		<pressure>75</pressure>
+		<char num="1">
+			<option num="1">Agree to new vote</option>
+			<option num="2">Hold talks with Yushchenko</option>
+			<option num="3">Ignore supreme court, Yushchenko</option>
+		</char>
+		<char num="2">
+			<option num="1">Hold talks with Yanukovych</option>
+			<option num="2">Call on Ukrainian government for support</option>
+			<option num="3">Use supreme court results to excite supporters; demand a new vote</option>
+		</char>
+		<results>
+			<choice num="1_1">4_2</choice>
+			<choice num="1_2">4_3</choice>
+			<choice num="1_3">4_4</choice>
+			<choice num="2_1">4_2</choice>
+			<choice num="2_2">4_3</choice>
+			<choice num="2_3">4_3</choice>
+			<choice num="3_1">4_5</choice>
+			<choice num="3_2">4_5</choice>
+			<choice num="3_3">4_1</choice>
+		</results>
+	</dPoint>
+	<dPoint num="3_2" date="November 26" isNewsflash="true" isIntervention="false" daysRemaining="30">
+		<newsflash>On November 25, the Canadian House of Commons rejected the results of the 2nd ballot, increasing pressure on the Ukrainian government to hold another election.</newsflash>
+		<text>Yanukovych mobilizes enough support from the government to suppress Yushchenko's protesters for now.
+
+Local and international pressure rallies and the Supreme Court to suspend publication of election results. This stirs even more tension between Yushchenko and Yanukovych supporters. Violence is a real possibility.</text>
+		<extraInfo>Foreign governments often send observers to elections in new democracies, or countries that have a history of election fraud.</extraInfo>
+		<pressure>90</pressure>
+		<char num="1">
+			<option num="1">Hold talks with Yushchenko</option>
+			<option num="2">Ignore rising oppostion and attempt to take power formally</option>
+			<option num="3">Shut down Yushchenko's factions completely</option>
+		</char>
+		<char num="2">
+			<option num="1">Hold talks with Yanukovych; calm supporters</option>
+			<option num="2">Use supreme court results to support your demand for a new vote</option>
+			<option num="3">Encourage and incite supporters to persevere in their protests</option>
+		</char>
+		<results>
+			<choice num="1_1">4_2</choice>
+			<choice num="1_2">4_7</choice>
+			<choice num="1_3">4_6</choice>
+			<choice num="2_1">4_5</choice>
+			<choice num="2_2">4_7</choice>
+			<choice num="2_3">4_1</choice>
+			<choice num="3_1">4_5</choice>
+			<choice num="3_2">4_1</choice>
+			<choice num="3_3">4_1</choice>
+		</results>
+	</dPoint>
+	<dPoint num="3_3" date="November 26" isNewsflash="true" isIntervention="false" daysRemaining="30">
+		<newsflash>NEWSFLASH: On November 25, the Canadian House of Commons rejected the results of the 2nd ballot, increasing pressure on the Ukrainian government to hold another election.</newsflash>
+		<text>While Yanukovych was prepared to concede to a review, Yushchenko's decision to concede has given him a renewed sense of confidence. International pressure from governments and NGOs is the only thing force standing in Yanukovych's way.</text>
+		<extraInfo>Election observers are unbiased individuals who monitor the election process for irregularities and fraud.</extraInfo>
+		<pressure>30</pressure>
+		<char num="1">
+			<option num="1">Hold talks with Yushchenko</option>
+			<option num="2">Ignore rising oppostion and attempt to take power formally</option>
+			<option num="3">Shut down Yushchenko's factions completely</option>
+		</char>
+		<char num="2">
+			<option num="1">Admit defeat and call on supporters to do the same</option>
+			<option num="2">Hold talks with Yanukovych</option>
+			<option num="3">Use supreme court results to excite supporters; demand a new vote</option>
+		</char>
+		<results>
+			<choice num="1_1">4_2</choice>
+			<choice num="1_2">4_2</choice>
+			<choice num="1_3">4_7</choice>
+			<choice num="2_1">4_8</choice>
+			<choice num="2_2">4_7</choice>
+			<choice num="2_3">4_3</choice>
+			<choice num="3_1">4_8</choice>
+			<choice num="3_2">4_3</choice>
+			<choice num="3_3">4_3</choice>
+		</results>
+	</dPoint>
+	<dPoint num="3_4" date="November 26" isNewsflash="true" isIntervention="false" daysRemaining="30">
+		<newsflash>On November 25, the Canadian House of Commons rejected the results of the 2nd ballot, increasing pressure on the Ukrainian government to hold another election.</newsflash>
+		<text>Despite Yushchenko's decision to admit defeat, there is still strong international support for local non-governmental organizations (NGOs) who are fighting for election reform. However, their cause will not last much longer without Yushchenko's will to challenge the election results. 
+</text>
+		<extraInfo>The name "Orange Revolution" comes from Yushchenko's official campaign colour, orange.</extraInfo>
+		<pressure>20</pressure>
+		<char num="1">
+			<option num="1">Hold negotiations with Yushchenko</option>
+			<option num="2">Ignore rising oppostion and try to take power formally</option>
+			<option num="3">Shut down Yushchenko's factions completely</option>
+		</char>
+		<char num="2">
+			<option num="1">Admit defeat and call on supporters to do the same</option>
+			<option num="2">Hold talks with Yanukovych</option>
+			<option num="3">Use supreme court results as fuel to excite supporters; demand a new vote</option>
+		</char>
+		<results>
+			<choice num="1_1">4_2</choice>
+			<choice num="1_2">4_2</choice>
+			<choice num="1_3">4_7</choice>
+			<choice num="2_1">4_8</choice>
+			<choice num="2_2">4_7</choice>
+			<choice num="2_3">4_3</choice>
+			<choice num="3_1">4_8</choice>
+			<choice num="3_2">4_3</choice>
+			<choice num="3_3">4_3</choice>
+		</results>
+	</dPoint>
+	<dPoint num="3_5" date="November 26" isNewsflash="ture" isIntervention="false" daysRemaining="30">
+		<newsflash>On November 25, the Canadian House of Commons rejected the results of the 2nd ballot, increasing pressure on the Ukrainian government to hold another election.</newsflash>
+		<text>Yanukovych musters enough support from the government to suppress Yushchenko's protesters for now. Local and international pressure lead the Supreme Court to suspend publication of election results. This stirs further tension between Yushchenko and Yanukovych supporters. Violence is a real possibility.</text>
+		<extraInfo>The name "Orange Revolution" comes from Yushchenko's official campaign colour, orange.</extraInfo>
+		<pressure>70</pressure>
+		<char num="1">
+			<option num="1">Hold talks with Yushchenko</option>
+			<option num="2">Ignore rising oppostion and attempt to take power formally</option>
+			<option num="3">Shut down Yushchenko's factions completely</option>
+		</char>
+		<char num="2">
+			<option num="1">Hold talks with Yanukovych; calm supporters</option>
+			<option num="2">Use supreme court results as fuel to support your demand for a new vote</option>
+			<option num="3">Encourage and incite supporters to continue in their protests</option>
+		</char>
+		<results>
+			<choice num="1_1">4_2</choice>
+			<choice num="1_2">4_7</choice>
+			<choice num="1_3">4_6</choice>
+			<choice num="2_1">4_5</choice>
+			<choice num="2_2">4_7</choice>
+			<choice num="2_3">4_3</choice>
+			<choice num="3_1">4_5</choice>
+			<choice num="3_2">4_3</choice>
+			<choice num="3_3">4_1</choice>
+		</results>
+	</dPoint>
+	<dPoint num="3_6" date="November 26" isNewsflash="true" isIntervention="false" daysRemaining="30">
+		<newsflash>On November 25, the Canadian House of Commons rejected the results of the 2nd ballot, increasing pressure on the Ukrainian government to hold another election.</newsflash>
+		<text>Yanukovych holds firm and Yushchenko continues to urge his supporters to take action. Local and international pressure leads the Supreme Court to suspend publication of election results. While this is good news for Yushchenko, his tactics are increasing tension.</text>
+		<extraInfo>The name "Orange Revolution" comes from Yushchenko's official campaign colour, orange.</extraInfo>
+		<pressure>70</pressure>
+		<char num="1">
+			<option num="1">Hold talks with Yushchenko </option>
+			<option num="2">Ignore rising oppostion and attempt to take power formally</option>
+			<option num="3">Shut down Yushchenko's factions completely</option>
+		</char>
+		<char num="2">
+			<option num="1">Concede and call on supporters to do the same </option>
+			<option num="2">Hold talks with Yanukovych</option>
+			<option num="3">Use supreme court results to excite supporters; demand a new vote</option>
+		</char>
+		<results>
+			<choice num="1_1">4_2</choice>
+			<choice num="1_2">4_2</choice>
+			<choice num="1_3">4_7</choice>
+			<choice num="2_1">4_8</choice>
+			<choice num="2_2">4_7</choice>
+			<choice num="2_3">4_3</choice>
+			<choice num="3_1">4_8</choice>
+			<choice num="3_2">4_3</choice>
+			<choice num="3_3">4_3</choice>
+		</results>
+	</dPoint>
+	<dPoint num="3_7" date="November 26" isNewsflash="true" isIntervention="false" daysRemaining="30">
+		<newsflash>NEWSFLASH: On November 25, the Canadian House of Commons rejected the results of the 2nd ballot, increasing pressure on the Ukrainian government to hold another election.</newsflash>
+		<text>Yushchenko's supporters attempt to seize key government buildings, but Yanukovych supporters in government halt their efforts.
+
+Local and international pressure leads the Supreme Court to suspend publication of election results. This stirs further tension between Yushchenko and Yanukovych factions. Violence is a real possibility.</text>
+		<extraInfo>The name "Orange Revolution" comes from Yushchenko's official campaign colour, orange.</extraInfo>
+		<pressure>90</pressure>
+		<char num="1">
+			<option num="1">Hold talks with Yushchenko</option>
+			<option num="2">Ignore rising oppostion and attempt to take power formally</option>
+			<option num="3">Shut down Yushchenko's factions completely</option>
+		</char>
+		<char num="2">
+			<option num="1">Hold talks with Yanukovych; calm supporters</option>
+			<option num="2">Use supreme court results as fuel to support your demand for a new vote</option>
+			<option num="3">Continue to push supporters</option>
+		</char>
+		<results>
+			<choice num="1_1">4_2</choice>
+			<choice num="1_2">4_7</choice>
+			<choice num="1_3">4_6</choice>
+			<choice num="2_1">4_5</choice>
+			<choice num="2_2">4_7</choice>
+			<choice num="2_3">4_1</choice>
+			<choice num="3_1">4_5</choice>
+			<choice num="3_2">4_1</choice>
+			<choice num="3_3">4_1</choice>
+		</results>
+	</dPoint>
+	<dPoint num="4_1" date="November 27" isNewsflash="false" isIntervention="false" endingType="bad">
+		<text>Violence has erupted.</text>
+	</dPoint>
+	<dPoint num="4_2" date="November 27" isNewsflash="true" isIntervention="false" daysRemaining="29">
+		<newsflash>The Ukrainian parliament passes a resolution declaring the election results invalid and non-confidence in the elections commission. The motion is largely symbolic, but motivates Yushchenko supporters to continue.</newsflash>
+		<text>Congratulations! Mr. Yushchenko and Mr. Yanukovych are holding talks, a step toward resolution. Unfortunately, no concrete decisions are made. Yanukovych supporters in the eastern part of the country threaten to separate from the rest of the country if Yushchenko is made president. Their numbers have been rising, and combined with the continued blockade of government offices, violence is a real possibility.</text>
+		<extraInfo>The eastern part of Ukraine is largely Russian-speaking, while the western half is largely Ukrainian.</extraInfo>
+		<pressure>50</pressure>
+		<char num="1">
+			<option num="1">Continue to negotiate with Yushchenko</option>
+			<option num="2">Call on supporters to strengthen protests</option>
+			<option num="3">Attempt to end Yuschenko's blockades</option>
+		</char>
+		<char num="2">
+			<option num="1">Continue to negotiate with Yanukovych</option>
+			<option num="2">Call on Supreme Court to order a new election</option>
+			<option num="3">Call on supporters to expand blockades</option>
+		</char>
+		<results>
+			<choice num="1_1">5_1</choice>
+			<choice num="1_2">5_3</choice>
+			<choice num="1_3">5_2</choice>
+			<choice num="2_1">5_3</choice>
+			<choice num="2_2">5_3</choice>
+			<choice num="2_3">5_2</choice>
+			<choice num="3_1">5_2</choice>
+			<choice num="3_2">5_2</choice>
+			<choice num="3_3">5_2</choice>
+		</results>
+	</dPoint>
+	<dPoint num="4_3" date="November 27" isNewsflash="true" isIntervention="false" daysRemaining="29">
+		<newsflash>The Ukrainian parliament passes a resolution declaring the election results invalid and non-confidence in the elections commission. The motion is largely symbolic, but motivates Yushchenko supporters to continue.</newsflash>
+		<text>The continued stalemate is causing tensions to rise, and protests are growing from both factions. International pressure from the West is supporting Yushchenko's position. Support for Yanukovych is coming largely from Russia. 
+
+Manage your decisions carefully; protesters could turn to violence at any moment. 
+</text>
+		<extraInfo>The eastern part of Ukraine is largely Russian-speaking, while the western half is largely Ukrainian.</extraInfo>
+		<pressure>90</pressure>
+		<char num="1">
+			<option num="1">Continue to negotiate with Yushchenko</option>
+			<option num="2">Call on supporters to fortify protests</option>
+			<option num="3">Attempt to end blockades</option>
+		</char>
+		<char num="2">
+			<option num="1">Continue to negotiate with Yanukovych</option>
+			<option num="2">Call on Supreme Court to order a new election</option>
+			<option num="3">Call on supporters to expand blockades</option>
+		</char>
+		<results>
+			<choice num="1_1">5_1</choice>
+			<choice num="1_2">5_3</choice>
+			<choice num="1_3">5_2</choice>
+			<choice num="2_1">5_3</choice>
+			<choice num="2_2">5_3</choice>
+			<choice num="2_3">5_2</choice>
+			<choice num="3_1">5_2</choice>
+			<choice num="3_2">5_2</choice>
+			<choice num="3_3">5_2</choice>
+		</results>
+	</dPoint>
+	<dPoint num="4_4" date="November 27" isNewsflash="true" isIntervention="false" daysRemaining="29">
+		<newsflash>The Ukrainian parliament passes a resolution declaring the election results invalid and non-confidence in the elections commission. The motion is largely symbolic, but motivates Yushchenko supporters to continue.</newsflash>
+		<text>Although both candidates agree that the previous election was flawed, neither has the power to force a new vote. Keep this momentum going, however, and you might achieve peaceful democratic reform.</text>
+		<extraInfo>Nonviolent resistance is the practice of socio-political goals through various forms of protest, without resorting to violence.</extraInfo>
+		<pressure>30</pressure>
+		<char num="1">
+			<option num="1">Continue to call for new elections</option>
+			<option num="2">Continue talks with Yushchenko</option>
+			<option num="3">Pressure Supreme Court to review the election</option>
+		</char>
+		<char num="2">
+			<option num="1">Admit defeat in the face of the government's resolution</option>
+			<option num="2">Continue talks with Yanukovych</option>
+			<option num="3">Pressure Supreme Court to review the election</option>
+		</char>
+		<results>
+			<choice num="1_1">5_4</choice>
+			<choice num="1_2">5_1</choice>
+			<choice num="1_3">5_3</choice>
+			<choice num="2_1">5_1</choice>
+			<choice num="2_2">5_1</choice>
+			<choice num="2_3">5_3</choice>
+			<choice num="3_1">5_4</choice>
+			<choice num="3_2">5_3</choice>
+			<choice num="3_3">5_3</choice>
+		</results>
+	</dPoint>
+	<dPoint num="4_5" date="November 27" isNewsflash="true" isIntervention="false" daysRemaining="29">
+		<newsflash>The Ukrainian parliament passes a resolution declaring the election results invalid and non-confidence in the elections commission. The motion is largely symbolic, but motivates Yushchenko supporters to continue.</newsflash>
+		<text>The continued impasse is causing tensions to rise between both factions, with protests growing on both sides. International pressure from the West is on Yushchenko's side, with support form Yanukovych coming largely from Russia. Manage your decisions carefully; violence could erupt at any moment.</text>
+		<extraInfo>Impasse: an impassable point or deadlock.</extraInfo>
+		<pressure>70</pressure>
+		<char num="1">
+			<option num="1">Continue to negotiate with Yushchenko</option>
+			<option num="2">Call on supporters to fortify protests</option>
+			<option num="3">Defy parliament and try to take power</option>
+		</char>
+		<char num="2">
+			<option num="1">Continue to negotiate with Yanukovych</option>
+			<option num="2">Call on Supreme Court to order a new election</option>
+			<option num="3">Take advantage of parliament support and speak out against Yanukovych's attempts to rule</option>
+		</char>
+		<results>
+			<choice num="1_1">5_1</choice>
+			<choice num="1_2">5_3</choice>
+			<choice num="1_3">5_3</choice>
+			<choice num="2_1">5_5</choice>
+			<choice num="2_2">5_3</choice>
+			<choice num="2_3">5_2</choice>
+			<choice num="3_1">5_5</choice>
+			<choice num="3_2">5_2</choice>
+			<choice num="3_3">5_2</choice>
+		</results>
+	</dPoint>
+	<dPoint num="4_6" date="November 27" isNewsflash="true" isIntervention="false" daysRemaining="29">
+		<newsflash>The Ukrainian parliament passes a resolution declaring the election results invalid and non-confidence in the elections commission. The motion is largely symbolic, but motivates Yushchenko supporters to continue.</newsflash>
+		<text>Although Yushchenko's action nearly pushed the country to violence, Yanukovych's concession improved the situation slightly. The continued impasse is causing tensions and protests to rise on both sides. International pressure from the West is on Yushchenko's side, with support from Yanukovych coming largely from Russia. Manage your decisions carefully. Violence could erupt at any moment.</text>
+		<extraInfo>Impasse: an impassable point or deadlock.</extraInfo>
+		<pressure>90</pressure>
+		<char num="1">
+			<option num="1">Continue to negotiate with Yushchenko</option>
+			<option num="2">Call on supporters to strengthen protests</option>
+			<option num="3">Attempt to end blockades</option>
+		</char>
+		<char num="2">
+			<option num="1">Continue to negotiate with Yanukovych</option>
+			<option num="2">Call on Supreme Court to order a new election</option>
+			<option num="3">Call on supporters to expand blockades</option>
+		</char>
+		<results>
+			<choice num="1_1">5_1</choice>
+			<choice num="1_2">5_3</choice>
+			<choice num="1_3">5_2</choice>
+			<choice num="2_1">5_3</choice>
+			<choice num="2_2">5_3</choice>
+			<choice num="2_3">5_2</choice>
+			<choice num="3_1">5_2</choice>
+			<choice num="3_2">5_2</choice>
+			<choice num="3_3">5_2</choice>
+		</results>
+	</dPoint>
+	<dPoint num="4_7" date="November 27" isNewsflash="true" isIntervention="false" daysRemaining="29">
+		<newsflash>The Ukrainian parliament passes a resolution declaring the election results invalid and non-confidence in the elections commission. The motion is largely symbolic, but motivates Yushchenko supporters to continue.</newsflash>
+		<text>Your even-handed decisions have reduced the likelihood of violence, but the impasse continues. International pressure from the West is on Yushchenko's side, with support form Yanukovych coming largely from Russia.</text>
+		<extraInfo>Impasse: an impassable point or deadlock.</extraInfo>
+		<pressure>75</pressure>
+		<char num="1">
+			<option num="1">Continue to negotiate with Yushchenko</option>
+			<option num="2">Call on supporters to strengthen protests</option>
+			<option num="3">Defy parliament and try to take power</option>
+		</char>
+		<char num="2">
+			<option num="1">Continue to negotiate with Yanukovych</option>
+			<option num="2">Call on Supreme Court to order a new election</option>
+			<option num="3">Take advantage of parliament support and denounce Yanukovych's attempts to rule</option>
+		</char>
+		<results>
+			<choice num="1_1">5_1</choice>
+			<choice num="1_2">5_3</choice>
+			<choice num="1_3">5_3</choice>
+			<choice num="2_1">5_5</choice>
+			<choice num="2_2">5_3</choice>
+			<choice num="2_3">5_2</choice>
+			<choice num="3_1">5_5</choice>
+			<choice num="3_2">5_2</choice>
+			<choice num="3_3">5_2</choice>
+		</results>
+	</dPoint>
+	<dPoint num="4_8" date="Game over" isNewsflash="false" isIntervention="false" endingType="bad">
+		<text>Unforunately, Yuschenko's decision to give up has meant that Yanukovych will be able to take power without a full investigation of any wrong-doing, and without doing anything to settle the major disagreements between the two sides. Public support alone is not enough to achieve democratic reform in this type of situation - it takes strong leaders as well. In good news, you were able to avoid violence.</text>
+	</dPoint>
+	<dPoint num="5_1" date="November 29" isNewsflash="true" isIntervention="false" daysRemaining="27">
+		<newsflash>Yanukovych supporters in the Eastern part of Ukraine announce their intention to separate from the rest of the country if Mr. Yushchenko is declared president. Meanwhile, the Supreme Court begins to investigate election irregularities.</newsflash>
+		<text>Continued, seemingly pointless negotiations between Yushchenko and Yanukovych are beginning to frustrate both factions. Some of the more extreme protesters are ready to take matters into their own hands.</text>
+		<extraInfo>The eastern part of Ukraine is largely Russian-speaking, while the western half is largely Ukrainian.</extraInfo>
+		<pressure>90</pressure>
+		<char num="1">
+			<option num="1">Do nothing: wait for court results</option>
+			<option num="2">Continue attempts to rule</option>
+			<option num="3">Suppress Yushchenko supporters</option>
+		</char>
+		<char num="2">
+			<option num="1">Take advantage of supposed court support; call on foreign support</option>
+			<option num="2">Take advantage of growing public support, and demand new elections</option>
+			<option num="3">Call on protesters to take stronger action against Yanukovych</option>
+		</char>
+		<results>
+			<choice num="1_1">6_5</choice>
+			<choice num="1_2">6_5</choice>
+			<choice num="1_3">6_7</choice>
+			<choice num="2_1">6_4</choice>
+			<choice num="2_2">6_4</choice>
+			<choice num="2_3">6_4</choice>
+			<choice num="3_1">6_6</choice>
+			<choice num="3_2">6_6</choice>
+			<choice num="3_3">6_6</choice>
+		</results>
+	</dPoint>
+	<dPoint num="5_2" date="Game over" isNewsflash="false" isIntervention="false" endingType="bad">
+		<text>Calling on supporters (on either side) to expand protests was not a good choice in such a heated environment. </text>
+	</dPoint>
+	<dPoint num="5_3" date="November 29" isNewsflash="ture" isIntervention="false" daysRemaining="27">
+		<newsflash>The Supreme Court begins considering allegations of electoral abuses. This is a first-step toward either calling a new election, or affirming Yanukovych as the winner. The final outcomes remain to be seen. Meanwhile, Yanukovych supporters in the East announce their intention to separate from Ukraine if Mr. Yushchenko is declared president.</newsflash>
+		<text>While frustrating, the posturing by both candidates is seen as more productive than continued talks. With the ongoing court proceedings, everything seems up in the air. Both sides are on edge.</text>
+		<extraInfo>The eastern part of Ukraine is largely Russian-speaking, while the western half is largely Ukrainian.</extraInfo>
+		<pressure>70</pressure>
+		<char num="1">
+			<option num="1">Announce support of new elections in highly contested areas</option>
+			<option num="2">Do nothing: wait for court results</option>
+			<option num="3">Continue attempts to rule</option>
+		</char>
+		<char num="2">
+			<option num="1">Do nothing: wait for court results</option>
+			<option num="2">Capitalize on supposed court support; call on foreign support</option>
+			<option num="3">Take advantage of growing public support, and demand new elections</option>
+		</char>
+		<results>
+			<choice num="1_1">6_1</choice>
+			<choice num="1_2">6_1</choice>
+			<choice num="1_3">6_5</choice>
+			<choice num="2_1">6_2</choice>
+			<choice num="2_2">6_2</choice>
+			<choice num="2_3">6_5</choice>
+			<choice num="3_1">6_3</choice>
+			<choice num="3_2">6_4</choice>
+			<choice num="3_3">6_4</choice>
+		</results>
+	</dPoint>
+	<dPoint num="5_4" date="Game over" isNewsflash="false" isIntervention="false" endingType="bad">
+		<text>Unforunately, Yanukovych's decision to give up has meant that Yuschenko will be able to take power without a full investigation of any wrong-doing, and without doing anything to settle the major disagreements between the two sides. Public support alone is not enough to achieve democratic reform in this type of situation - it takes strong leaders as well. In good news, you were able to avoid violence.</text>
+	</dPoint>
+	<dPoint num="5_5" date="November 29" isNewsflash="false" isIntervention="false" daysRemaining="27">
+		<newsflash>The Supreme Court begins considering allegations of electoral abuses. This is a first-step toward either calling a new election, or affirming Yanukovych as the winner. The final outcomes remain to be seen. Meanwhile, Yanukovych supporters in the East announce their intention to separate from Ukraine if Mr. Yushchenko is declared president.</newsflash>
+		<text>Yushchenko supporters, faced with inaction from the leader and escalating aggression from their opponent, are ready to act.</text>
+		<extraInfo>The eastern part of Ukraine is largely Russian-speaking, while the western half is largely Ukrainian.</extraInfo>
+		<pressure>90</pressure>
+		<char num="1">
+			<option num="1">Do nothing: wait for court results</option>
+			<option num="2">Continue attempts to rule</option>
+			<option num="3">Suppress Yushchenko supporters</option>
+		</char>
+		<char num="2">
+			<option num="1">Capitalize on supposed court support; call on foreign support</option>
+			<option num="2">Take advantage of growing public support, and demand new elections</option>
+			<option num="3">Call on protesters to take stronger action against Yanukovych</option>
+		</char>
+		<results>
+			<choice num="1_1">6_5</choice>
+			<choice num="1_2">6_5</choice>
+			<choice num="1_3">6_7</choice>
+			<choice num="2_1">6_4</choice>
+			<choice num="2_2">6_4</choice>
+			<choice num="2_3">6_4</choice>
+			<choice num="3_1">6_6</choice>
+			<choice num="3_2">6_6</choice>
+			<choice num="3_3">6_6</choice>
+		</results>
+	</dPoint>
+	<dPoint num="6_1" date="November 30" isNewsflash="true" isIntervention="false" daysRemaining="26">
+		<newsflash>Canadian Prime Minister Paul Martin and American President George W. Bush speak out against the results of the second ballot. Canada issues the following statement: "Canada is prepared to do whatever it can, whenever it can, to ensure that elections in Ukraine are fair, open and transparent." Meanwhile, outgoing President Leonid Kuchma (a Yanukovych supporter) declares that only new elections can solve the dispute.</newsflash>
+		<text>Yushchenko rejects the possibility of elections only in certain regions. Yanukovych's concessions do, however, lighten some of the tensions between the opposing sides. The peace cannot last long. Resolution from the courts is anxiously awaited.</text>
+		<extraInfo>The eastern part of Ukraine is largely Russian-speaking, while the western half is largely Ukrainian.</extraInfo>
+		<pressure>35</pressure>
+		<char num="1">
+			<option num="1">Give in to pressure, cease attempts to govern, demand new vote</option>
+			<option num="2">Agree to further talks with Yushchenko</option>
+			<option num="3">Ask supporters to escalate protests</option>
+		</char>
+		<char num="2">
+			<option num="1">The end is near! Ask protesters to cease any blockades</option>
+			<option num="2">Demand talks with Yanukovych</option>
+			<option num="3">Escalate protests</option>
+		</char>
+		<results>
+			<choice num="1_1">7_1</choice>
+			<choice num="1_2">7_2</choice>
+			<choice num="1_3">7_5</choice>
+			<choice num="2_1">7_2</choice>
+			<choice num="2_2">7_2</choice>
+			<choice num="2_3">7_5</choice>
+			<choice num="3_1">7_3</choice>
+			<choice num="3_2">7_3</choice>
+			<choice num="3_3">7_4</choice>
+		</results>
+	</dPoint>
+	<dPoint num="6_2" date="November 30" isNewsflash="true" isIntervention="false" daysRemaining="26">
+		<newsflash>Canadian Prime Minister Paul Martin and American President George W. Bush speak out against the results of the second ballot. Canada issues the following statement: "Canada is prepared to do whatever it can, whenever it can, to ensure that elections in Ukraine are fair, open and transparent." Meanwhile, outgoing President Leonid Kuchma (a Yanukovych supporter) declares that only new elections can solve the dispute.</newsflash>
+		<text>Supporters on both sides are growing tired of inaction. With support seeming to flow in from around the world, Yushchenko's supporters are becoming particularly restless. The situation could easily degenerate into violence at any time.</text>
+		<extraInfo>At the height of the protests, hundreds of thousands of people were gathered in the centre of Kiev.</extraInfo>
+		<pressure>90</pressure>
+		<char num="1">
+			<option num="1">Give in to pressure, cease attempts to govern, and demand new vote</option>
+			<option num="2">Suppress Yushchenko supporters</option>
+			<option num="3">Ask supporters to escalate protests</option>
+		</char>
+		<char num="2">
+			<option num="1">Ask protesters to be patient</option>
+			<option num="2">Demand new elections</option>
+			<option num="3">Ask protesters to escalate protests</option>
+		</char>
+		<results>
+			<choice num="1_1">7_7</choice>
+			<choice num="1_2">7_1</choice>
+			<choice num="1_3">7_6</choice>
+			<choice num="2_1">7_6</choice>
+			<choice num="2_2">7_4</choice>
+			<choice num="2_3">7_6</choice>
+			<choice num="3_1">7_6</choice>
+			<choice num="3_2">7_6</choice>
+			<choice num="3_3">7_6</choice>
+		</results>
+	</dPoint>
+	<dPoint num="6_3" date="November 30" isNewsflash="true" isIntervention="false" daysRemaining="26">
+		<newsflash>Canadian Prime Minister Paul Martin and American President George W. Bush speak out against the results of the second ballot. Canada issues the following statement: "Canada is prepared to do whatever it can, whenever it can, to ensure that elections in Ukraine are fair, open and transparent." Meanwhile, outgoing President Leonid Kuchma (a Yanukovych supporter) declares that only new elections can solve the dispute.</newsflash>
+		<text>Yushchenko supporters, faced with inaction from their leader and escalating aggression from their opponent, are ready to act.</text>
+		<extraInfo>At the height of the protests, hundreds of thousands of people were gathered in the centre of Kiev.</extraInfo>
+		<pressure>90</pressure>
+		<char num="1">
+			<option num="1">Give in to pressure, cease attempts to govern, demand new vote</option>
+			<option num="2">Suppress Yushchenko supporters</option>
+			<option num="3">Ask supporters to escalate protests</option>
+		</char>
+		<char num="2">
+			<option num="1">Ask protesters to be patient</option>
+			<option num="2">Demand new elections</option>
+			<option num="3">Escalate protests</option>
+		</char>
+		<results>
+			<choice num="1_1">7_7</choice>
+			<choice num="1_2">7_1</choice>
+			<choice num="1_3">7_6</choice>
+			<choice num="2_1">7_6</choice>
+			<choice num="2_2">7_4</choice>
+			<choice num="2_3">7_6</choice>
+			<choice num="3_1">7_6</choice>
+			<choice num="3_2">7_6</choice>
+			<choice num="3_3">7_6</choice>
+		</results>
+	</dPoint>
+	<dPoint num="6_4" date="November 30" isNewsflash="true" isIntervention="false" daysRemaining="26">
+		<newsflash>Canadian Prime Minister Paul Martin and American President George W. Bush speak out against the results of the second ballot. Canada issues the following statement: "Canada is prepared to do whatever it can, whenever it can, to ensure that elections in Ukraine are fair, open and transparent." Meanwhile, outgoing President Leonid Kuchma (a Yanukovych supporter) declares that only new elections can solve the dispute.</newsflash>
+		<text>Yushchenko supporters rally around their leader in the face of escalating aggression from Yanukovych.</text>
+		<extraInfo>At the height of the protests, hundreds of thousands of people were gathered in the centre of Kiev.</extraInfo>
+		<pressure>90</pressure>
+		<char num="1">
+			<option num="1">Give in to pressure, cease attempts to govern, demand new vote</option>
+			<option num="2">Suppress Yushchenko supporters</option>
+			<option num="3">Ask supporters to escalate protests</option>
+		</char>
+		<char num="2">
+			<option num="1">Ask protesters to be patient</option>
+			<option num="2">Demand new elections</option>
+			<option num="3">Escalate protests</option>
+		</char>
+		<results>
+			<choice num="1_1">7_7</choice>
+			<choice num="1_2">7_1</choice>
+			<choice num="1_3">7_6</choice>
+			<choice num="2_1">7_6</choice>
+			<choice num="2_2">7_4</choice>
+			<choice num="2_3">7_6</choice>
+			<choice num="3_1">7_6</choice>
+			<choice num="3_2">7_6</choice>
+			<choice num="3_3">7_6</choice>
+		</results>
+	</dPoint>
+	<dPoint num="6_5" date="November 30" isNewsflash="true" isIntervention="false" daysRemaining="26">
+		<newsflash>Canadian Prime Minister Paul Martin and American President George W. Bush speak out against the results of the second ballot. Canada issues the following statement: "Canada is prepared to do whatever it can, whenever it can, to ensure that elections in Ukraine are fair, open and transparent." Meanwhile, outgoing President Leonid Kuchma (a Yanukovych supporter) declares that only new elections can solve the dispute.</newsflash>
+		<text>With Yanukovych taking no action, Yushchenko seizes the opportunity to rally support.</text>
+		<extraInfo>At the height of the protests, hundreds of thousands of people were gathered in the centre of Kiev.</extraInfo>
+		<pressure>70</pressure>
+		<char num="1">
+			<option num="1">Give in to pressure, cease attempts to govern, demand new vote</option>
+			<option num="2">Suppress Yushchenko supporters</option>
+			<option num="3">Ask supporters to escalate protests</option>
+		</char>
+		<char num="2">
+			<option num="1">Ask protesters to be patient</option>
+			<option num="2">Demand new elections</option>
+			<option num="3">Escalate protests</option>
+		</char>
+		<results>
+			<choice num="1_1">7_2</choice>
+			<choice num="1_2">7_1</choice>
+			<choice num="1_3">7_5</choice>
+			<choice num="2_1">7_3</choice>
+			<choice num="2_2">7_4</choice>
+			<choice num="2_3">7_4</choice>
+			<choice num="3_1">7_3</choice>
+			<choice num="3_2">7_6</choice>
+			<choice num="3_3">7_6</choice>
+		</results>
+	</dPoint>
+	<dPoint num="6_6" date="Game end" isNewsflash="false" isIntervention="false" endingType="bad">
+		<text>Yanukovych's decision to silence Yuschenko's supporters has left them no choice but violence. The stakes were too high and there was too much pressure for any other outcome. Try playing again, making more balanced decisions in the early stages of the game, and see how that affects the outcome.</text>
+	</dPoint>
+	<dPoint num="6_7" date="November 30" isNewsflash="true" isIntervention="false" daysRemaining="26">
+		<newsflash>Canadian Prime Minister Paul Martin and American President George W. Bush speak out against the results of the second ballot. Canada issues the following statement: "Canada is prepared to do whatever it can, whenever it can, to ensure that elections in Ukraine are fair, open and transparent." Meanwhile, outgoing President Leonid Kuchma (a Yanukovych supporter) declares that only new elections can solve the dispute.</newsflash>
+		<text>Some Yanukovych supporters see Yushchenko's growing defiance as reason enough to act without the support of their leader. Time for damage control, before the situation gets out of hand.</text>
+		<extraInfo>At the height of the protests, hundreds of thousands of people were gathered in the centre of Kiev.</extraInfo>
+		<pressure>90</pressure>
+		<char num="1">
+			<option num="1">Give in to pressure, cease attempts to govern, demand new vote</option>
+			<option num="2">Suppress Yushchenko supporters</option>
+			<option num="3">Ask supporters to escalate protests</option>
+		</char>
+		<char num="2">
+			<option num="1">Ask protesters to be patient</option>
+			<option num="2">Demand new elections</option>
+			<option num="3">Escalate protests</option>
+		</char>
+		<results>
+			<choice num="1_1">7_7</choice>
+			<choice num="1_2">7_1</choice>
+			<choice num="1_3">7_6</choice>
+			<choice num="2_1">7_6</choice>
+			<choice num="2_2">7_4</choice>
+			<choice num="2_3">7_6</choice>
+			<choice num="3_1">7_6</choice>
+			<choice num="3_2">7_6</choice>
+			<choice num="3_3">7_6</choice>
+		</results>
+	</dPoint>
+	<dPoint num="7_1" date="December 1" isNewsflash="true" isIntervention="false" daysRemaining="25">
+		<newsflash>Parliament narrowly passes a motion of no-confidence in the government, a move Yanukovych dismisses as illegal. Yushchenko agrees to lift all blockades on government buildings-government workers can resume their functions.</newsflash>
+		<text>Yushchenko and Yanukovych are both making concessions, and the situation seems to be moving toward a resolution, although there is still no word from the Supreme Court. The recent no-confidence motion has angered Yanukovych's supporters.</text>
+		<extraInfo>A confidence motion is a vote by parliament that, if defeated, leads to the fall of government and new elections.</extraInfo>
+		<pressure>30</pressure>
+		<char num="1">
+			<option num="1">Dismiss parliament's motion</option>
+			<option num="2">Initiate further talks with Yuschenko</option>
+			<option num="3">Call on protesters to escalate</option>
+		</char>
+		<char num="2">
+			<option num="1">Initiate further talks with Yanukovych</option>
+			<option num="2">Put public pressure on Supreme Court for a swift decision</option>
+			<option num="3">Use no-confidence motion to expand protestor support</option>
+		</char>
+		<results>
+			<choice num="1_1">8_1</choice>
+			<choice num="1_2">8_2</choice>
+			<choice num="1_3">8_2</choice>
+			<choice num="2_1">8_3</choice>
+			<choice num="2_2">8_3</choice>
+			<choice num="2_3">8_4</choice>
+			<choice num="3_1">8_5</choice>
+			<choice num="3_2">8_6</choice>
+			<choice num="3_3">8_6</choice>
+		</results>
+	</dPoint>
+	<dPoint num="7_2" date="December 1" isNewsflash="true" isIntervention="false" daysRemaining="25">
+		<newsflash>Parliament narrowly passes a motion of no-confidence in the government, a move Yanukovych dismisses as illegal. Yushchenko agrees to lift all blockades on government buildings-government workers can resume their functions.</newsflash>
+		<text>Both sides agree to further talks. However, without a decision from the Supreme Court, it seems that continued deadlock is the only foreseeable future.</text>
+		<extraInfo>A confidence motion is a vote by parliament that, if defeated, leads to the fall of government and new elections.</extraInfo>
+		<pressure>65</pressure>
+		<char num="1">
+			<option num="1">Dismiss parliament's motion and continue talks</option>
+			<option num="2">Denounce parliament's motion but continue talks</option>
+			<option num="3">Break off talks; escalate protests</option>
+		</char>
+		<char num="2">
+			<option num="1">Use motion to pressure Yanukovych in talks</option>
+			<option num="2">Break off talks because of the motion</option>
+			<option num="3">Escalate protests to pressure a Supreme Court decision</option>
+		</char>
+		<results>
+			<choice num="1_1">8_7</choice>
+			<choice num="1_2">8_1</choice>
+			<choice num="1_3">8_2</choice>
+			<choice num="2_1">8_7</choice>
+			<choice num="2_2">8_1</choice>
+			<choice num="2_3">8_2</choice>
+			<choice num="3_1">8_5</choice>
+			<choice num="3_2">8_9</choice>
+			<choice num="3_3">8_8</choice>
+		</results>
+	</dPoint>
+	<dPoint num="7_3" date="December 1" isNewsflash="true" isIntervention="false" daysRemaining="25">
+		<newsflash>Parliament narrowly passes a motion of no-confidence in the government, a move Yanukovych dismisses as illegal. Yushchenko agrees to lift all blockades on government buildings-government workers can resume their functions.</newsflash>
+		<text>Yanukovych takes advantage of Yushchenko's moment of weakness. The high spirits of Yanukovych's supporters are aggravating Yushchenko's side. Yanukovich's defiance of the no-confidence motion helps his supporters maintain their enthusiasm.</text>
+		<extraInfo>A confidence motion is a vote by parliament that, if defeated, leads to the fall of government and new elections.</extraInfo>
+		<pressure>90</pressure>
+		<char num="1">
+			<option num="1">Resume talks: allow pressure to dissipate</option>
+			<option num="2">Denounce parliament's motion and rally supporters</option>
+			<option num="3">Suppress opposition</option>
+		</char>
+		<char num="2">
+			<option num="1">Attempt to calm supporters; resume talks with Yanukovych</option>
+			<option num="2">Attempt to calm supporters; applaud motion but demand peace</option>
+			<option num="3">Use motion to escalate protest</option>
+		</char>
+		<results>
+			<choice num="1_1">8_7</choice>
+			<choice num="1_2">8_3</choice>
+			<choice num="1_3">8_4</choice>
+			<choice num="2_1">8_8</choice>
+			<choice num="2_2">8_9</choice>
+			<choice num="2_3">8_8</choice>
+			<choice num="3_1">8_8</choice>
+			<choice num="3_2">8_8</choice>
+			<choice num="3_3">8_8</choice>
+		</results>
+	</dPoint>
+	<dPoint num="7_4" date="December 1" isNewsflash="true" isIntervention="false" daysRemaining="25">
+		<newsflash>Parliament narrowly passes a motion of no-confidence in the government, a move Yanukovych dismisses as illegal. Yushchenko agrees to lift all blockades on government buildings-government workers can resume their functions.</newsflash>
+		<text>Both sides escalate their protests. Tensions are very high, with the recent no-confidence motion only serving to make the situation more tense.</text>
+		<extraInfo>A confidence motion is a vote by parliament that, if defeated, leads to the fall of government and new elections.</extraInfo>
+		<pressure>90</pressure>
+		<char num="1">
+			<option num="1">Resume talks: allow pressure to dissipate</option>
+			<option num="2">Denounce parliament's motion and rally supporters</option>
+			<option num="3">Suppress opposition</option>
+		</char>
+		<char num="2">
+			<option num="1">Attempt to calm supporters; resume talks with Yanukovych</option>
+			<option num="2">Attempt to calm supporters; applaud motion but demand peace</option>
+			<option num="3">Use motion to escalate protest</option>
+		</char>
+		<results>
+			<choice num="1_1">8_7</choice>
+			<choice num="1_2">8_3</choice>
+			<choice num="1_3">8_4</choice>
+			<choice num="2_1">8_8</choice>
+			<choice num="2_2">8_9</choice>
+			<choice num="2_3">8_8</choice>
+			<choice num="3_1">8_8</choice>
+			<choice num="3_2">8_8</choice>
+			<choice num="3_3">8_8</choice>
+		</results>
+	</dPoint>
+	<dPoint num="7_5" date="December 1" isNewsflash="true" isIntervention="false" daysRemaining="25">
+		<newsflash>Parliament narrowly passes a motion of no-confidence in the government, a move Yanukovych dismisses as illegal. Yushchenko agrees to lift all blockades on government buildings-government workers can resume their functions.</newsflash>
+		<text>Yushchenko takes advantage of Yanukovych's moment of weakness. The high spirits of Yushenko's supporters are only serving to further aggravate Yanukovych's side. Yanukovich's stance on parliament's motion helps his supporters maintain their enthusiasm.</text>
+		<extraInfo>A confidence motion is a vote by parliament that, if defeated, leads to the fall of government and new elections.</extraInfo>
+		<pressure>50</pressure>
+		<char num="1">
+			<option num="1">Diffuse situation; resume talks</option>
+			<option num="2">Criticize parliament's motion and rally supporters</option>
+			<option num="3">Suppress opposition</option>
+		</char>
+		<char num="2">
+			<option num="1">Attempt to calm supporters; resume talks with Yanukovych</option>
+			<option num="2">Attempt to calm supporters; applaud motion but demand peace</option>
+			<option num="3">Use motion to escalate protest</option>
+		</char>
+		<results>
+			<choice num="1_1">8_7</choice>
+			<choice num="1_2">8_3</choice>
+			<choice num="1_3">8_4</choice>
+			<choice num="2_1">8_8</choice>
+			<choice num="2_2">8_9</choice>
+			<choice num="2_3">8_8</choice>
+			<choice num="3_1">8_8</choice>
+			<choice num="3_2">8_8</choice>
+			<choice num="3_3">8_8</choice>
+		</results>
+	</dPoint>
+	<dPoint num="7_6" date="December 1" isNewsflash="false" isIntervention="false" endingType="bad">
+		<text>With one or both candidates pressuring supporters to escalate their protests, violence could not be avoided. You have not achieved peaceful democratic reform. Next time you play, be sure to keep an eye on the pressure gauge at the bottom of the screen and make sure your decisions don't push protestors over the edge to violence.</text>
+	</dPoint>
+	<dPoint num="7_7" date="December 1" isNewsflash="false" isIntervention="false" endingType="bad">
+		<text>By calling for patience and not taking visible steps toward resolving the crisis, both candidates have frustrated radical supporters and left them no choice but to violence. Riots have broken out, and you have not achieved your goal of peaceful democratic reform. Try playing again, and keep an eye on the pressure metre at the bottom of the screen.</text>
+	</dPoint>
+	<dPoint num="8_1" date="December 3" isNewsflash="true" isIntervention="false" daysRemaining="23">
+		<newsflash>The Supreme Court declares invalid the second ballot results. Combined with parliament's no-confidence vote, the path to a new election has been paved.</newsflash>
+		<text>Yanukovych supporters, frustrated by both the Supreme Court and parliament are verging on violence. Yushchenko's side sees much hope in the situation, but will not tolerate continued inaction from their leader.</text>
+		<extraInfo>At the height of the protests, hundreds of thousands of people were gathered in the centre of Kiev.</extraInfo>
+		<pressure>65</pressure>
+		<char num="1">
+			<option num="1">Back down, prepare for new election</option>
+			<option num="2">Engage in crisis talks with Yushchenko</option>
+			<option num="3">Dispute ruling, appeal to current president for support</option>
+		</char>
+		<char num="2">
+			<option num="1">Celebrate! Thank supporters and prepare for a new election</option>
+			<option num="2">Engage in crisis talks with Yanukovych to prepare for election</option>
+			<option num="3">Announce that Yanukovych is corrupt and should not be allowed to run again</option>
+		</char>
+		<results>
+			<choice num="1_1">9_1</choice>
+			<choice num="1_2">9_2</choice>
+			<choice num="1_3">9_11</choice>
+			<choice num="2_1">9_3</choice>
+			<choice num="2_2">9_3</choice>
+			<choice num="2_3">9_11</choice>
+			<choice num="3_1">9_5</choice>
+			<choice num="3_2">9_3</choice>
+			<choice num="3_3">9_11</choice>
+		</results>
+	</dPoint>
+	<dPoint num="8_2" date="December 3" isNewsflash="true" isIntervention="false" daysRemaining="23">
+		<newsflash>The Supreme Court annuls second ballot results. Combined with parliament's no-confidence vote, the path to a new election has been paved.</newsflash>
+		<text>Yanukovych supporters, frustrated by both the Supreme Court and parliament are verging on violence, while Yushchenko's side sees much hope in the situation.</text>
+		<extraInfo>At the height of the protests, hundreds of thousands of people were gathered in the centre of Kiev.</extraInfo>
+		<pressure>70</pressure>
+		<char num="1">
+			<option num="1">Concede, prepare for new election</option>
+			<option num="2">Engage in crisis talks with Yushchenko</option>
+			<option num="3">Dispute ruling, appeal to incumbent president for support</option>
+		</char>
+		<char num="2">
+			<option num="1">Celebrate! Thank supporters and prepare for a new election</option>
+			<option num="2">Engage in crisis talks with Yanukovych to prepare for election</option>
+			<option num="3">Announce that Yanukovych is corrupt and should not be allowed to run again</option>
+		</char>
+		<results>
+			<choice num="1_1">9_4</choice>
+			<choice num="1_2">9_2</choice>
+			<choice num="1_3">9_11</choice>
+			<choice num="2_1">9_3</choice>
+			<choice num="2_2">9_3</choice>
+			<choice num="2_3">9_11</choice>
+			<choice num="3_1">9_5</choice>
+			<choice num="3_2">9_3</choice>
+			<choice num="3_3">9_11</choice>
+		</results>
+	</dPoint>
+	<dPoint num="8_3" date="December 3" isNewsflash="true" isIntervention="false" daysRemaining="23">
+		<newsflash>The Supreme Court annuls second ballot results. Combined with parliament's no-confidence vote, the path to a new election has been paved.</newsflash>
+		<text>On December 2, both candidates entered into crisis talks. Although no concrete results have emerged, most Ukrainians see this, combined with the recent Supreme Court and parliamentary decisions as progress toward some kind of resolution.</text>
+		<extraInfo>At the height of the protests, hundreds of thousands of people were gathered in the centre of Kiev.</extraInfo>
+		<pressure>50</pressure>
+		<char num="1">
+			<option num="1">Continue talks</option>
+			<option num="2">Condemn Yushchenko and election reform</option>
+			<option num="3">Declare talks a failure, rally supporters</option>
+		</char>
+		<char num="2">
+			<option num="1">Continue talks</option>
+			<option num="2">Demand election reform and call for new election</option>
+			<option num="3">Declare talks a failure; rally supporters</option>
+		</char>
+		<results>
+			<choice num="1_1">9_6</choice>
+			<choice num="1_2">9_7</choice>
+			<choice num="1_3">9_10</choice>
+			<choice num="2_1">9_7</choice>
+			<choice num="2_2">9_7</choice>
+			<choice num="2_3">9_8</choice>
+			<choice num="3_1">9_9</choice>
+			<choice num="3_2">9_8</choice>
+			<choice num="3_3">9_8</choice>
+		</results>
+	</dPoint>
+	<dPoint num="8_4" date="December 3" isNewsflash="true" isIntervention="false" daysRemaining="23">
+		<newsflash>The Supreme Court annuls second ballot results. Combined with parliament's no-confidence vote, the path to a new election has been paved.</newsflash>
+		<text>Despite Yanukovych's attempts to begin talks, Yushchenko focuses on escalating the situation. Yanukovych supporters, frustrated by both the Supreme Court and parliament, are verging on violence, while Yushchenko's side sees much hope in the situation.</text>
+		<extraInfo>At the height of the protests, hundreds of thousands of people were gathered in the centre of Kiev.</extraInfo>
+		<pressure>80</pressure>
+		<char num="1">
+			<option num="1">Concede, prepare for new election</option>
+			<option num="2">Engage in crisis talks with Yushchenko</option>
+			<option num="3">Question ruling, appeal to current president for support</option>
+		</char>
+		<char num="2">
+			<option num="1">Celebrate! Thank supporters and prepare for a new election</option>
+			<option num="2">Engage in crisis talks with Yanukovych to prepare for election</option>
+			<option num="3">Announce that Yanukovych is corrupt and should not be allowed to run again</option>
+		</char>
+		<results>
+			<choice num="1_1">9_4</choice>
+			<choice num="1_2">9_2</choice>
+			<choice num="1_3">9_11</choice>
+			<choice num="2_1">9_3</choice>
+			<choice num="2_2">9_3</choice>
+			<choice num="2_3">9_11</choice>
+			<choice num="3_1">9_5</choice>
+			<choice num="3_2">9_3</choice>
+			<choice num="3_3">9_11</choice>
+		</results>
+	</dPoint>
+	<dPoint num="8_5" date="December 3" isNewsflash="true" isIntervention="false" daysRemaining="23">
+		<newsflash>The Supreme Court annuls second ballot results. Combined with parliament's no-confidence vote, the path to a new election has been paved.</newsflash>
+		<text>Yushchenko's supporters get frustrated with inaction in the face of escalating protests. The Supreme Court decision is seen as a highly favorable step forward, but violence is a real possibility.</text>
+		<extraInfo>At the height of the protests, hundreds of thousands of people were gathered in the centre of Kiev.</extraInfo>
+		<pressure>75</pressure>
+		<char num="1">
+			<option num="1">Concede, prepare for new election</option>
+			<option num="2">Engage in crisis talks with Yushchenko</option>
+			<option num="3">Dispute ruling, appeal to incumbent president for support</option>
+		</char>
+		<char num="2">
+			<option num="1">Celebrate! Thank supporters and prepare for a new election</option>
+			<option num="2">Engage in crisis talks with Yanukovych to prepare for election</option>
+			<option num="3">Announce that Yanukovych is corrupt and should not be allowed to run again</option>
+		</char>
+		<results>
+			<choice num="1_1">9_4</choice>
+			<choice num="1_2">9_2</choice>
+			<choice num="1_3">9_11</choice>
+			<choice num="2_1">9_3</choice>
+			<choice num="2_2">9_3</choice>
+			<choice num="2_3">9_11</choice>
+			<choice num="3_1">9_12</choice>
+			<choice num="3_2">9_12</choice>
+			<choice num="3_3">9_12</choice>
+		</results>
+	</dPoint>	
+	<dPoint num="8_6" date="December 3" isNewsflash="true" isIntervention="false" daysRemaining="23">
+		<newsflash>The Supreme Court annuls second ballot results. Combined with parliament's no-confidence vote, the path to a new election has been paved.</newsflash>
+		<text>Yushchenko's supporters get frustrated with inaction in the face of escalating protests. The Supreme Court decision is seen as highly favorable, but violence is a real possibility.  There is no more room for error!</text>
+		<extraInfo>At the height of the protests, hundreds of thousands of people were gathered in the centre of Kiev.</extraInfo>
+		<pressure>85</pressure>
+		<char num="1">
+			<option num="1">Concede, prepare for new election</option>
+			<option num="2">Engage in crisis talks with Yushchenko</option>
+			<option num="3">Dispute ruling, appeal to incumbent president for support</option>
+		</char>
+		<char num="2">
+			<option num="1">Celebrate! Thank supporters and prepare for a new election</option>
+			<option num="2">Engage in crisis talks with Yanukovych to prepare for election</option>
+			<option num="3">Announce that Yanukovych is corrupt and should not be allowed to run again</option>
+		</char>
+		<results>
+			<choice num="1_1">9_4</choice>
+			<choice num="1_2">9_2</choice>
+			<choice num="1_3">9_11</choice>
+			<choice num="2_1">9_3</choice>
+			<choice num="2_2">9_3</choice>
+			<choice num="2_3">9_11</choice>
+			<choice num="3_1">9_12</choice>
+			<choice num="3_2">9_12</choice>
+			<choice num="3_3">9_12</choice>
+		</results>
+	</dPoint>		
+	<dPoint num="8_7" date="December 3" isNewsflash="true" isIntervention="false" daysRemaining="23">
+		<newsflash>The Supreme Court revokes second ballot results. Combined with parliament's no-confidence vote, the path to a new election has been paved.</newsflash>
+		<text>The new Supreme Court ruling is giving a new and positive energy to the talks. While things seem to be moving forward, the people of Ukraine are demanding resolution, not perpetual talks.</text>
+		<extraInfo>At the height of the protests, hundreds of thousands of people were gathered in the centre of Kiev.</extraInfo>
+		<pressure>50</pressure>
+		<char num="1">
+			<option num="1">Continue talks</option>
+			<option num="2">Condemn Yushchenko and election reform</option>
+			<option num="3">Declare talks a failure, rally supporters</option>
+		</char>
+		<char num="2">
+			<option num="1">Continue talks</option>
+			<option num="2">Demand election reform and call for new election</option>
+			<option num="3">Declare talks a failure, rally supporters</option>
+		</char>
+		<results>
+			<choice num="1_1">9_6</choice>
+			<choice num="1_2">9_7</choice>
+			<choice num="1_3">9_10</choice>
+			<choice num="2_1">9_7</choice>
+			<choice num="2_2">9_7</choice>
+			<choice num="2_3">9_8</choice>
+			<choice num="3_1">9_9</choice>
+			<choice num="3_2">9_8</choice>
+			<choice num="3_3">9_8</choice>
+		</results>
+	</dPoint>		
+	<dPoint num="8_8" date="Game over" isNewsflash="false" isIntervention="false" endingType="bad">
+		<text>With one or both candidates urging their supporters to increase their efforts, violence was an unavoidable outcome. Even when only one candidate seems to be asking for peace, it can be difficult to predict how supporters will react to protests from the opposition.</text>
+	</dPoint>
+	<dPoint num="8_9" date="December 3" isNewsflash="true" isIntervention="false" daysRemaining="23">
+		<newsflash>The Supreme Court annuls second ballot results. Combined with parliament's no-confidence vote, the path to a new election has been paved.</newsflash>
+		<text>Both sides escalate their protests. While the Supreme Court ruling dispels any violence for now, supporters on both sides are frustrated and volatile.</text>
+		<extraInfo>At the height of the protests, hundreds of thousands of people were gathered in the centre of Kiev.</extraInfo>
+		<pressure>70</pressure>
+		<char num="1">
+			<option num="1">Concede, prepare for new election</option>
+			<option num="2">Engage in crisis talks with Yushchenko</option>
+			<option num="3">Dispute ruling, appeal to incumbent president for support</option>
+		</char>
+		<char num="2">
+			<option num="1">Celebrate! Thank supporters and prepare for a new election</option>
+			<option num="2">Engage in crisis talks with Yanukovych to prepare for election</option>
+			<option num="3">Announce that Yanukovych is corrupt and should not be allowed to run again</option>
+		</char>
+		<results>
+			<choice num="1_1">9_4</choice>
+			<choice num="1_2">9_2</choice>
+			<choice num="1_3">9_11</choice>
+			<choice num="2_1">9_3</choice>
+			<choice num="2_2">9_3</choice>
+			<choice num="2_3">9_11</choice>
+			<choice num="3_1">9_12</choice>
+			<choice num="3_2">9_12</choice>
+			<choice num="3_3">9_12</choice>
+		</results>
+	</dPoint>	
+	<dPoint num="9_1" date="December 8" isNewsflash="true" isIntervention="false" daysRemaining="18">
+		<newsflash>Parliament passes a comprehensive reform bill, paving the way for a new ballot on December 26.</newsflash>
+		<text>The reform bill has placated Yushchenko and his supporters, and they are busying campaigning for the upcoming election. However, Yanukovych supporters very near violence, feeling that their candidate has not done enough, in spite of all their support.</text>
+		<extraInfo>In Ukraine, one candidate must receive over 50% of the vote in order to win the presidency.</extraInfo>
+		<pressure>90</pressure>
+		<char num="1">
+			<option num="1">Focus on rallying support for upcoming election</option>
+			<option num="2">Rally voters, but denounce process</option>
+			<option num="3">Encourage supporters to revolt, and separate</option>
+		</char>
+		<char num="2">
+			<option num="1">Focus on campaigning for the next round of voting</option>
+			<option num="2">Voice concern that election reforms won't be enough; Yanukovych can't be trusted</option>
+			<option num="3">Rally supporters, demand that Yanukovych back out because of corruption</option>
+		</char>
+		<results>
+			<choice num="1_1">10_1</choice>
+			<choice num="1_2">10_1</choice>
+			<choice num="1_3">10_1</choice>
+			<choice num="2_1">10_3</choice>
+			<choice num="2_2">10_4</choice>
+			<choice num="2_3">10_5</choice>
+			<choice num="3_1">10_2</choice>
+			<choice num="3_2">10_2</choice>
+			<choice num="3_3">10_2</choice>
+		</results>
+	</dPoint>		
+	<dPoint num="9_2" date="December 8" isNewsflash="true" isIntervention="false" daysRemaining="18">
+		<newsflash>Parliament passes a comprehensive reform bill, paving the way for a new ballot on December 26.</newsflash>
+		<text>Both sides sit down for crisis talks, but Yanukovych's supporters are on the brink of violence.</text>
+		<extraInfo>In Ukraine, one candidate must receive over 50% of the vote in order to win the presidency.</extraInfo>
+		<pressure>85</pressure>
+		<char num="1">
+			<option num="1">Focus on talks and ask for patience</option>
+			<option num="2">Rally voters, but criticize process and end talks</option>
+			<option num="3">Encourage supporting regions to revolt, seek separation from Ukraine</option>
+		</char>
+		<char num="2">
+			<option num="1">Focus on talks and ask for patience</option>
+			<option num="2">Voice concern that election reforms won't be enough; Yanukovych can't be trusted</option>
+			<option num="3">Rally supporters, demand that Yanukovych back out</option>
+		</char>
+		<results>
+			<choice num="1_1">10_1</choice>
+			<choice num="1_2">10_1</choice>
+			<choice num="1_3">10_1</choice>
+			<choice num="2_1">10_3</choice>
+			<choice num="2_2">10_4</choice>
+			<choice num="2_3">10_5</choice>
+			<choice num="3_1">10_2</choice>
+			<choice num="3_2">10_2</choice>
+			<choice num="3_3">10_2</choice>
+		</results>
+	</dPoint>		
+	<dPoint num="9_3" date="December 8" isNewsflash="true" isIntervention="false" daysRemaining="18">
+		<newsflash>Parliament passes a comprehensive reform bill, paving the way for a new ballot on December 26.</newsflash>
+		<text>Crisis talks go a long way to addressing the concerns of supporters on both sides. The level of tension has fallen quite a bit. It looks like Ukraine is on the road to reform.</text>
+		<extraInfo>In Ukraine, one candidate must receive over 50% of the vote in order to win the presidency.</extraInfo>
+		<pressure>40</pressure>
+		<char num="1">
+			<option num="1">Focus on finding support for the next round of voting</option>
+			<option num="2">Make a deal with Yushchenko; offer a position in government if he withdraws</option>
+			<option num="3">Rally supporters to revolt and boycott elections</option>
+		</char>
+		<char num="2">
+			<option num="1">Victory seems imminent; relax and prepare</option>
+			<option num="2">Campaign and shore up support</option>
+			<option num="3">Propose a truce with Yanukovych, offer him leading role if he withdraws from the election</option>
+		</char>
+		<results>
+			<choice num="1_1">10_6</choice>
+			<choice num="1_2">10_8</choice>
+			<choice num="1_3">10_10</choice>
+			<choice num="2_1">10_6</choice>
+			<choice num="2_2">10_8</choice>
+			<choice num="2_3">10_10</choice>
+			<choice num="3_1">10_7</choice>
+			<choice num="3_2">10_9</choice>
+			<choice num="3_3">10_10</choice>
+		</results>
+	</dPoint>		
+	<dPoint num="9_4" date="Game end" isNewsflash="false" isIntervention="false" endingType="bad">
+		<text>Although news of a new election was received well internationally, within Ukraine, people were more skeptical. Both candidates' decision to immediately back down and prepare for a new election left many supporters frustrated, feeling like many core issues had not been resolved, and like past corruption and wrong-doing was going unnoticed. Violence resulted. Try playing again, and keep in mind how you might react to if you were an average person on the streets of Kiev.</text>
+	</dPoint>		
+	<dPoint num="9_5" date="December 8" isNewsflash="true" isIntervention="false" daysRemaining="18">
+		<newsflash>Parliament passes a comprehensive reform bill, paving the way for a new ballot on December 26.</newsflash>
+		<text>Both sides are very tense, despite the reform bill and the newly-cleared road to a third ballot. This will be a difficult situation to diffuse.</text>
+		<extraInfo>In Ukraine, one candidate must receive over 50% of the vote in order to win the presidency.</extraInfo>
+		<pressure>90</pressure>
+		<char num="1">
+			<option num="1">Focus on rallying support for upcoming election</option>
+			<option num="2">Rally voters, but denounce process</option>
+			<option num="3">Encourage supporting regions to revolt, seek separation from Ukraine</option>
+		</char>
+		<char num="2">
+			<option num="1">Focus on campaigning for the next round of voting</option>
+			<option num="2">Voice concern that election reforms won't be enough</option>
+			<option num="3">Rally supporters, demand that Yanukovych withdraw</option>
+		</char>
+		<results>
+			<choice num="1_1">10_1</choice>
+			<choice num="1_2">10_1</choice>
+			<choice num="1_3">10_1</choice>
+			<choice num="2_1">10_3</choice>
+			<choice num="2_2">10_4</choice>
+			<choice num="2_3">10_5</choice>
+			<choice num="3_1">10_2</choice>
+			<choice num="3_2">10_2</choice>
+			<choice num="3_3">10_2</choice>
+		</results>
+	</dPoint>			
+	<dPoint num="9_6" date="December 8" isNewsflash="true" isIntervention="false" daysRemaining="18">
+		<newsflash>Parliament passes a comprehensive reform bill, paving the way for a new ballot on December 26.</newsflash>
+		<text>Both sides are tense thanks to both leaders inaction, despite the reform bill and the newly-cleared road to a third ballot. This will be a difficult situation to diffuse.</text>
+		<extraInfo>In Ukraine, one candidate must receive over 50% of the vote in order to win the presidency.</extraInfo>
+		<pressure>90</pressure>
+		<char num="1">
+			<option num="1">Focus on rallying support for upcoming election</option>
+			<option num="2">Rally voters, but denounce process</option>
+			<option num="3">Encourage supporting regions to revolt, seek separation from Ukraine</option>
+		</char>
+		<char num="2">
+			<option num="1">Focus on campaigning for the next round of voting</option>
+			<option num="2">Voice concern that election reforms won't be enough</option>
+			<option num="3">Rally supporters, demand that Yanukovych withdraw</option>
+		</char>
+		<results>
+			<choice num="1_1">10_1</choice>
+			<choice num="1_2">10_1</choice>
+			<choice num="1_3">10_1</choice>
+			<choice num="2_1">10_3</choice>
+			<choice num="2_2">10_4</choice>
+			<choice num="2_3">10_5</choice>
+			<choice num="3_1">10_2</choice>
+			<choice num="3_2">10_2</choice>
+			<choice num="3_3">10_2</choice>
+		</results>
+	</dPoint>	
+	<dPoint num="9_7" date="December 8" isNewsflash="true" isIntervention="false" daysRemaining="18">
+		<newsflash>Parliament passes a comprehensive reform bill, paving the way for a new ballot on December 26.</newsflash>
+		<text>The reform bill, which is seen as highly favourable for Yushchenko, receives a warm welcome from Yuschenko supporters. Yanukovych's supporters are significantly less pleased, and the general level of tension rises.</text>
+		<extraInfo>In Ukraine, one candidate must receive over 50% of the vote in order to win the presidency.</extraInfo>
+		<pressure>70</pressure>
+		<char num="1">
+			<option num="1">Focus on finding support for the next round of voting</option>
+			<option num="2">Make a deal with Yushchenko; offer a position in government if he withdraws</option>
+			<option num="3">Rally supporters to revolt and boycott elections</option>
+		</char>
+		<char num="2">
+			<option num="1">Victory seems imminent; relax and prepare</option>
+			<option num="2">Campaign and shore up support</option>
+			<option num="3">Propose a truce with Yanukovych, offer him leading role if he withdraws from the election</option>
+		</char>
+		<results>
+			<choice num="1_1">10_6</choice>
+			<choice num="1_2">10_8</choice>
+			<choice num="1_3">10_10</choice>
+			<choice num="2_1">10_6</choice>
+			<choice num="2_2">10_8</choice>
+			<choice num="2_3">10_10</choice>
+			<choice num="3_1">10_7</choice>
+			<choice num="3_2">10_9</choice>
+			<choice num="3_3">10_10</choice>
+		</results>
+	</dPoint>		
+	<dPoint num="9_8" date="December 8" isNewsflash="true" isIntervention="false" daysRemaining="18">
+		<newsflash>Parliament passes a comprehensive reform bill, paving the way for a new ballot on December 26.</newsflash>
+		<text>Both sides are frustrated by a series of unproductive decisions and lack of results, despite the recent election reforms. This will be a difficult situation to diffuse.</text>
+		<extraInfo>In Ukraine, one candidate must receive over 50% of the vote in order to win the presidency.</extraInfo>
+		<pressure>85</pressure>
+		<char num="1">
+			<option num="1">Focus on rallying support for upcoming election</option>
+			<option num="2">Rally voters, but denounce process</option>
+			<option num="3">Encourage supporting regions to revolt, seek separation from Ukraine</option>
+		</char>
+		<char num="2">
+			<option num="1">Focus on campaigning for the next round of voting</option>
+			<option num="2">Voice concern that election reforms won't be enough; Yanukovych can't be trusted</option>
+			<option num="3">Rally supporters, demand that Yanukovych withdraw due to corruption</option>
+		</char>
+		<results>
+			<choice num="1_1">10_1</choice>
+			<choice num="1_2">10_1</choice>
+			<choice num="1_3">10_1</choice>
+			<choice num="2_1">10_3</choice>
+			<choice num="2_2">10_4</choice>
+			<choice num="2_3">10_5</choice>
+			<choice num="3_1">10_2</choice>
+			<choice num="3_2">10_2</choice>
+			<choice num="3_3">10_2</choice>
+		</results>
+	</dPoint>		
+	<dPoint num="9_9" date="December 8" isNewsflash="true" isIntervention="false" daysRemaining="18">
+		<newsflash>Parliament passes a comprehensive reform bill, paving the way for a new ballot on December 26.</newsflash>
+		<text>Yanukovych's inaction in the face of Yuschenko's aggression will not be supported! Yuschenko's supporters are at the brink of violence. Be careful!</text>
+		<extraInfo>In Ukraine, one candidate must receive over 50% of the vote in order to win the presidency.</extraInfo>
+		<pressure>90</pressure>
+		<char num="1">
+			<option num="1">Focus on rallying support for upcoming election</option>
+			<option num="2">Rally voters, but denounce process</option>
+			<option num="3">Encourage supporting regions to revolt, seek separation from Ukraine</option>
+		</char>
+		<char num="2">
+			<option num="1">Focus on campaigning for the next round of voting</option>
+			<option num="2">Voice concern that election reforms won't be enough; Yanukovych can't be trusted</option>
+			<option num="3">Rally supporters, demand that Yanukovych withdraw due to corruption</option>
+		</char>
+		<results>
+			<choice num="1_1">10_1</choice>
+			<choice num="1_2">10_1</choice>
+			<choice num="1_3">10_1</choice>
+			<choice num="2_1">10_3</choice>
+			<choice num="2_2">10_4</choice>
+			<choice num="2_3">10_5</choice>
+			<choice num="3_1">10_2</choice>
+			<choice num="3_2">10_2</choice>
+			<choice num="3_3">10_2</choice>
+		</results>
+	</dPoint>
+	<dPoint num="9_10" date="December 8" isNewsflash="true" isIntervention="false" daysRemaining="18">
+		<newsflash>Parliament passes a comprehensive reform bill, paving the way for a new ballot on December 26.</newsflash>
+		<text>Yushchenko's inaction in the face of Yanukovych's aggression will not be supported! Yanukovych's supporters are at the brink of violence. Be careful!</text>
+		<extraInfo>In Ukraine, one candidate must receive over 50% of the vote in order to win the presidency.</extraInfo>
+		<pressure>90</pressure>
+		<char num="1">
+			<option num="1">Focus on rallying support for upcoming election</option>
+			<option num="2">Rally voters, but denounce process</option>
+			<option num="3">Encourage supporting regions to revolt, seek separation from Ukraine</option>
+		</char>
+		<char num="2">
+			<option num="1">Focus on campaigning for the next round of voting</option>
+			<option num="2">Voice concern that election reforms won't be enough; Yanukovych can't be trusted</option>
+			<option num="3">Rally supporters, demand that Yanukovych withdraw due to corruption</option>
+		</char>
+		<results>
+			<choice num="1_1">10_1</choice>
+			<choice num="1_2">10_1</choice>
+			<choice num="1_3">10_1</choice>
+			<choice num="2_1">10_3</choice>
+			<choice num="2_2">10_4</choice>
+			<choice num="2_3">10_5</choice>
+			<choice num="3_1">10_2</choice>
+			<choice num="3_2">10_2</choice>
+			<choice num="3_3">10_2</choice>
+		</results>
+	</dPoint>
+	<dPoint num="9_11" date="Game over" isNewsflash="false" isIntervention="false" endingType="bad">
+		<text>Yanukovych supporters are fed up with Yushchenko. They cannot tolerate any more, and have resorted to violence. Try playing again, and keep in mind how you might feel if you were an average Ukrainian on the streets of Kiev during the Orange Revolution.</text>
+	</dPoint>
+	<dPoint num="9_12" date="Game over" isNewsflash="false" isIntervention="false" endingType="bad">
+		<text>Yushchenko supporters are fed up with Yanukovych. They cannot tolerate any more, and have resorted to violence. Try playing again, and keep in mind how you might feel if you were an average Ukrainian on the streets of Kiev during the Orange Revolution.</text>
+	</dPoint>
+		<dPoint num="10_1" date="Game over" isNewsflash="false" isIntervention="false" endingType="bad">
+		<text>Violence! Yanukovych supporters take matters into their own hands. They are not content giving up on past wrongs and focusing on the election ahead, and feeling no support from their candidate, they move to violence. Try playing again, and remember that keeping constituents and supporters happy is a major part of any politician's role.</text>
+	</dPoint>
+	<dPoint num="10_2" date="Game overh" isNewsflash="false" isIntervention="false" endingType="bad">
+		<text>Violence! Yushchenko supporters follow his lead and revolt. Regardless of how Yanukovych reacts, Yuschenko's actions are enough to throw the country into chaos, even with the upcoming election. You have not achieved your goal of peaceful democratic reform.</text>
+	</dPoint>
+	<dPoint num="10_3" date="December 11" isNewsflash="true" isIntervention="false" daysRemaining="15">
+		<newsflash>Doctors confirm that Mr. Yushchenko's facial disfiguration was the result of poisoning. Meanwhile, government workers return to work after protests in Kiev die down slightly following good news from the Supreme Court and parliament. Election observers from around the world, including observers funded through the Government of Canada and the Ukrainian Canadian Congress, prepare for the third ballot.</newsflash>
+		<text>Although the level of civic unrest is high, Yushchenko's calm up to now has eased tensions and the country has avoided violence. However, Yushchenko's supporters are enraged by the confirmation of his poisoning. This should weigh heavy in your mind as you make your next choices.</text>
+		<extraInfo>Mr. Yuschenko was poisoned with dioxin, a toxin that can cause cancer, diabetes, and other major health problems.</extraInfo>
+		<pressure>80</pressure>
+		<char num="1">
+			<option num="1">Deny involvement in poisoning; campaign as usual</option>
+			<option num="2">Accuse Yushchenko of trying to distract voters from important issues</option>
+			<option num="3">Admit to having a hand in the poisoning</option>
+		</char>
+		<char num="2">
+			<option num="1">Ignore poisoning issue; campaign as normal</option>
+			<option num="2">Call for Yanukovych's disqualification</option>
+			<option num="3">Use this chance to paint yourself as a strong survivor</option>
+		</char>
+		<results>
+			<choice num="1_1">11_4</choice>
+			<choice num="1_2">11_2</choice>
+			<choice num="1_3">11_1</choice>
+			<choice num="2_1">11_4</choice>
+			<choice num="2_2">11_2</choice>
+			<choice num="2_3">11_2</choice>
+			<choice num="3_1">11_1</choice>
+			<choice num="3_2">11_3</choice>
+			<choice num="3_3">11_1</choice>
+		</results>
+	</dPoint>
+	<dPoint num="10_4" date="December 11" isNewsflash="true" isIntervention="false" daysRemaining="15">
+		<newsflash>Doctors confirm that Mr. Yushchenko's facial disfiguration was the result of poisoning. Meanwhile, government workers return to work after protests in Kiev die down slightly following good news from the Supreme Court and parliament. Election observers from around the world, including observers funded through the Government of Canada and the Ukrainian Canadian Congress, prepare for the third ballot.</newsflash>
+		<text>Yuschenko's insistence that Yanukovych can't be trusted is leading many Ukrainians to believe that Yanukovych is responsible for the poisoning. This is casting further negative light on the campaign and angering Yushchenko's supporters.</text>
+		<extraInfo>Mr. Yuschenko was poisoned with dioxin, a toxin that can cause cancer, diabetes, and other major health problems.</extraInfo>
+		<pressure>90</pressure>
+		<char num="1">
+			<option num="1">Deny involvement in poisoning; campaign as usual</option>
+			<option num="2">Accuse Yushchenko of trying to distract voters from important issues</option>
+			<option num="3">Admit to having a hand in the poisoning</option>
+		</char>
+		<char num="2">
+			<option num="1">Ignore poisoning issue; campaign as normal</option>
+			<option num="2">Call for Yanukovych's disqualification</option>
+			<option num="3">Use this chance to paint yourself as a strong survivor</option>
+		</char>
+		<results>
+			<choice num="1_1">11_4</choice>
+			<choice num="1_2">11_2</choice>
+			<choice num="1_3">11_1</choice>
+			<choice num="2_1">11_4</choice>
+			<choice num="2_2">11_2</choice>
+			<choice num="2_3">11_5</choice>
+			<choice num="3_1">11_3</choice>
+			<choice num="3_2">11_3</choice>
+			<choice num="3_3">11_5</choice>
+		</results>
+	</dPoint>
+	<dPoint num="10_5" date="Game end" isNewsflash="false" isIntervention="false" endingType="bad">
+		<text>With both sides pushing hard on their supporters in a highly charged environment, violence was impossible to avoid. Even with an upcoming election, people's underlying issues were not resolved, and your decisions pushed them to violence. Try playing again, and remember to take careful steps to diffuse the tension.</text>
+	</dPoint>
+	<dPoint num="10_6" date="December 11" isNewsflash="true" isIntervention="false" daysRemaining="15">
+		<newsflash>Doctors confirm that Mr. Yushchenko's facial disfiguration was the result of poisoning. Meanwhile, government workers return to work after protests in Kiev die down slightly following good news from the Supreme Court and parliament. Election observers from around the world, including observers funded through the Government of Canada and the Ukrainian Canadian Congress, prepare for the third ballot.</newsflash>
+		<text>Yuschenko's supporters don't like his overly relaxed stance. Yanukovych is starting to pull ahead in the polls! They begin putting pressure on their candidate to act.</text>
+		<extraInfo>Mr. Yuschenko was poisoned with dioxin, a toxin that can cause cancer, diabetes, and other major health problems.</extraInfo>
+		<pressure>60</pressure>
+		<char num="1">
+			<option num="1">Deny involvement in poisoning; campaign as usual</option>
+			<option num="2">Accuse Yushchenko of trying to distract voters from important issues</option>
+			<option num="3">Admit to having a hand in the poisoning</option>
+		</char>
+		<char num="2">
+			<option num="1">Ignore poisoning issue; campaign as normal</option>
+			<option num="2">Call for Yanukovych's disqualification</option>
+			<option num="3">Use this chance to paint yourself as a strong survivor</option>
+		</char>
+		<results>
+			<choice num="1_1">11_6</choice>
+			<choice num="1_2">11_2</choice>
+			<choice num="1_3">11_1</choice>
+			<choice num="2_1">11_4</choice>
+			<choice num="2_2">11_2</choice>
+			<choice num="2_3">11_2</choice>
+			<choice num="3_1">11_1</choice>
+			<choice num="3_2">11_3</choice>
+			<choice num="3_3">11_1</choice>
+		</results>
+	</dPoint>
+	<dPoint num="10_7" date="December 11" isNewsflash="true" isIntervention="false" daysRemaining="15">
+		<newsflash>Doctors confirm that Mr. Yushchenko was poisoned earlier in the election process, leaving his face very disfigure. Meanwhile, government workers return to work after protests in Kiev die down slightly following good news from the Supreme Court and parliament. Election observers from around the world, including observers funded through the Government of Canada and the Ukrainian Canadian Congress, prepare for the third ballot.</newsflash>
+		<text>Yuschenko's supporters don't like his overly relaxed stance. Yanukovych's supporters are nearly moved to violence, as they launch election boycotts and clash with supporters of democratic reform.</text>
+		<extraInfo>Mr. Yuschenko was poisoned with dioxin, a toxin that can cause cancer, diabetes, and other major health problems.</extraInfo>
+		<pressure>70</pressure>
+		<char num="1">
+			<option num="1">Deny involvement in poisoning; campaign as usual</option>
+			<option num="2">Accuse Yushchenko of trying to distract voters from important issues</option>
+			<option num="3">Admit to having a hand in the poisoning</option>
+		</char>
+		<char num="2">
+			<option num="1">Ignore poisoning issue; campaign as normal</option>
+			<option num="2">Call for Yanukovych's disqualification</option>
+			<option num="3">Use this chance to paint yourself as a strong survivor</option>
+		</char>
+		<results>
+			<choice num="1_1">11_4</choice>
+			<choice num="1_2">11_2</choice>
+			<choice num="1_3">11_1</choice>
+			<choice num="2_1">11_4</choice>
+			<choice num="2_2">11_2</choice>
+			<choice num="2_3">11_5</choice>
+			<choice num="3_1">11_3</choice>
+			<choice num="3_2">11_3</choice>
+			<choice num="3_3">11_5</choice>
+		</results>
+	</dPoint>
+	<dPoint num="10_8" date="December 11" isNewsflash="true" isIntervention="false" daysRemaining="15">
+		<newsflash>Doctors confirm that Mr. Yushchenko's facial disfiguration was the result of poisoning. Meanwhile, government workers return to work after protests in Kiev die down slightly following good news from the Supreme Court and parliament. Election observers from around the world, including observers funded through the Government of Canada and the Ukrainian Canadian Congress, prepare for the third ballot.</newsflash>
+		<text>Both sides were relatively peaceful as campaigning for the new election begins, until the news of the poisoning hit.</text>
+		<extraInfo>Mr. Yuschenko was poisoned with dioxin, a toxin that can cause cancer, diabetes, and other major health problems.</extraInfo>
+		<pressure>40</pressure>
+		<char num="1">
+			<option num="1">Deny involvement in poisoning; campaign as usual</option>
+			<option num="2">Accuse Yushchenko of trying to distract voters from important issues</option>
+			<option num="3">Admit to having a hand in the poisoning</option>
+		</char>
+		<char num="2">
+			<option num="1">Ignore poisoning issue; campaign as normal</option>
+			<option num="2">Call for Yanukovych's disqualification</option>
+			<option num="3">Use this chance to paint yourself as a strong survivor</option>
+		</char>
+		<results>
+			<choice num="1_1">11_4</choice>
+			<choice num="1_2">11_2</choice>
+			<choice num="1_3">11_1</choice>
+			<choice num="2_1">11_4</choice>
+			<choice num="2_2">11_2</choice>
+			<choice num="2_3">11_2</choice>
+			<choice num="3_1">11_1</choice>
+			<choice num="3_2">11_3</choice>
+			<choice num="3_3">11_1</choice>
+		</results>
+	</dPoint>
+	<dPoint num="10_9" date="December 11" isNewsflash="true" isIntervention="false" daysRemaining="15">
+		<newsflash>Doctors confirm that Mr. Yushchenko's facial disfiguration was the result of poisoning. Meanwhile, government workers return to work after protests in Kiev die down slightly following good news from the Supreme Court and parliament. Election observers from around the world, including observers funded through the Government of Canada and the Ukrainian Canadian Congress, prepare for the third ballot.</newsflash>
+		<text>While Yushchenko's supporters are relatively relaxed while preparing for a new round of election, a growing faction of Yanukovych's supporters are launching campaigns to boycott elections.</text>
+		<extraInfo>Mr. Yuschenko was poisoned with dioxin, a toxin that can cause cancer, diabetes, and other major health problems.</extraInfo>
+		<pressure>70</pressure>
+		<char num="1">
+			<option num="1">Deny involvement in poisoning; campaign as usual</option>
+			<option num="2">Accuse Yushchenko of trying to distract voters from important issues</option>
+			<option num="3">Take credit for poisoning</option>
+		</char>
+		<char num="2">
+			<option num="1">Ignore poisoning issue; campaign as normal</option>
+			<option num="2">Call for Yanukovych's disqualification</option>
+			<option num="3">Use this chance to paint yourself as strong, a survivor</option>
+		</char>
+		<results>
+			<choice num="1_1">11_4</choice>
+			<choice num="1_2">11_2</choice>
+			<choice num="1_3">11_1</choice>
+			<choice num="2_1">11_4</choice>
+			<choice num="2_2">11_2</choice>
+			<choice num="2_3">11_5</choice>
+			<choice num="3_1">11_3</choice>
+			<choice num="3_2">11_3</choice>
+			<choice num="3_3">11_5</choice>
+		</results>
+	</dPoint>
+	<dPoint num="10_10" date="December 11" isNewsflash="true" isIntervention="false" daysRemaining="15">
+		<newsflash>Doctors confirm that Mr. Yushchenko's facial disfiguration was the result of poisoning. Meanwhile, government workers return to work after protests in Kiev die down slightly following good news from the Supreme Court and parliament. Election observers from around the world, including observers funded through the Government of Canada and the Ukrainian Canadian Congress, prepare for the third ballot.</newsflash>
+		<text>Yuschenko's boldness has angered Yanukovych supporters. At the same time, Yushchenko supporters are up in arms after the confirmation of his poisoning.</text>
+		<extraInfo>Mr. Yuschenko was poisoned with dioxin, a toxin that can cause cancer, diabetes, and other major health problems.</extraInfo>
+		<pressure>90</pressure>
+		<char num="1">
+			<option num="1">Deny involvement in poisoning; campaign as usual</option>
+			<option num="2">Accuse Yushchenko of trying to distract voters from important issues</option>
+			<option num="3">Take credit for poisoning</option>
+		</char>
+		<char num="2">
+			<option num="1">Ignore poisoning issue; campaign as normal</option>
+			<option num="2">Call for Yanukovych's disqualification</option>
+			<option num="3">Use this chance to paint yourself as strong, a survivor</option>
+		</char>
+		<results>
+			<choice num="1_1">11_4</choice>
+			<choice num="1_2">11_2</choice>
+			<choice num="1_3">11_1</choice>
+			<choice num="2_1">11_4</choice>
+			<choice num="2_2">11_2</choice>
+			<choice num="2_3">11_5</choice>
+			<choice num="3_1">11_3</choice>
+			<choice num="3_2">11_3</choice>
+			<choice num="3_3">11_5</choice>
+		</results>
+	</dPoint>
+<dPoint num="11_1" date="December 24" isNewsflash="true" isIntervention="false" daysRemaining="2">
+		<newsflash>On December 19-20, the Government of Canada - Foreign Affairs and International Trade, the Canadian International Development Agency, the Centre for Intercultural Learning and CANADEM - trains over 500 election observers to ensure that the new ballot is free of tampering and fraud. Observers include judges, provincial officials, police officers, academics, and many young people. A very broad group of remarkable Canadians!</newsflash>
+		<text>Public opinion swings sharply in favour of Yushchenko and his positioning as a survivor. Yanukovych needs to think carefully about his next move if he's going to win this battle. Tension has dropped as the election nears.</text>
+		<extraInfo>Canada was the first country to recognize Ukraine's independence, on 2 December 1991.</extraInfo>
+		<pressure>30</pressure>
+		<char num="1">
+			<option num="1">Campaign to the last minute!</option>
+			<option num="2">Attempt to influence election illegally</option>
+			<option num="3">Urge supporters to revolt and boycott the election</option>
+		</char>
+		<char num="2">
+			<option num="1">Everything seems set- relax and prepare to win!</option>
+			<option num="2">Campaign like there is no tomorrow!</option>
+			<option num="3">Attempt to influence election and supporters illegally</option>
+		</char>
+		<results>
+			<choice num="1_1">12_1</choice>
+			<choice num="1_2">12_2</choice>
+			<choice num="1_3">12_4</choice>
+			<choice num="2_1">12_4</choice>
+			<choice num="2_2">12_4</choice>
+			<choice num="2_3">12_4</choice>
+			<choice num="3_1">12_3</choice>
+			<choice num="3_2">12_3</choice>
+			<choice num="3_3">12_3</choice>
+		</results>
+	</dPoint>
+	<dPoint num="11_2" date="December 24" isNewsflash="true" isIntervention="false" daysRemaining="2">
+		<newsflash>On December 19-20, the Government of Canada - Foreign Affairs and International Trade, the Canadian International Development Agency, the Centre for Intercultural Learning and CANADEM - trains over 500 election observers to ensure that the new ballot is free of tampering and fraud. Observers include judges, provincial officials, police officers, academics, and many young people. A very broad group of remarkable Canadians!</newsflash>
+		<text>Yanukovych's argument that Yushchenko is trying to hide some bigger issues strikes a chord with the people.</text>
+		<extraInfo>Canada was the first country to recognize Ukraine's independence, on 2 December 1991.</extraInfo>
+		<pressure>80</pressure>
+		<char num="1">
+			<option num="1">Campaign to the last minute!</option>
+			<option num="2">Continue to dispute Yushchenko's honesty</option>
+			<option num="3">Attempt to influence election and supporters illegally</option>
+		</char>
+		<char num="2">
+			<option num="1">Campaign proactively on the merits of your ideas and track record!</option>
+			<option num="2">Campaign defensively; protect your reputation</option>
+			<option num="3">Attempt to influence election and supporters illegally</option>
+		</char>
+		<results>
+			<choice num="1_1">12_2</choice>
+			<choice num="1_2">12_2</choice>
+			<choice num="1_3">12_4</choice>
+			<choice num="2_1">12_1</choice>
+			<choice num="2_2">12_1</choice>
+			<choice num="2_3">12_4</choice>
+			<choice num="3_1">12_3</choice>
+			<choice num="3_2">12_3</choice>
+			<choice num="3_3">12_3</choice>
+		</results>
+	</dPoint>
+	<dPoint num="11_3" date="Game end" isNewsflash="false" isIntervention="false" endingType="good">
+		<text>Admitting to poisoning Yuschenko was the wrong thing for Yanukovych to do. Under new election rules, he is disqualified. Reform seems to have been achieved, and while Yanukovych supporters are definitely not happy, they have not resorted to violence.</text>
+	</dPoint>	
+	<dPoint num="11_4" date="December 24" isNewsflash="true" isIntervention="false" daysRemaining="2">
+		<newsflash>On December 19-20, the Government of Canada - Foreign Affairs and International Trade, the Canadian International Development Agency, the Centre for Intercultural Learning and CANADEM - trains over 500 election observers to ensure that the new ballot is free of tampering and fraud. Observers include judges, provincial officials, police officers, academics, and many young people. A very broad group of remarkable Canadians!</newsflash>
+		<text>The public is relaxed and reassured by both candidates ability to leave the poisoning issue without debate and focus on more important issues.</text>
+		<extraInfo>Canada was the first country to recognize Ukraine's independence, on 2 December 1991.</extraInfo>
+		<pressure>80</pressure>
+		<char num="1">
+			<option num="1">Campaign to the last minute!</option>
+			<option num="2">Attempt to influence election illegally</option>
+			<option num="3">Urge supporters to revolt during the election</option>
+		</char>
+		<char num="2">
+			<option num="1">Everything seems set! Relax!</option>
+			<option num="2">Campaign like there is no tomorrow!</option>
+			<option num="3">Attempt to influence election and supporters illegally</option>
+		</char>
+		<results>
+			<choice num="1_1">12_1</choice>
+			<choice num="1_2">12_2</choice>
+			<choice num="1_3">12_4</choice>
+			<choice num="2_1">12_4</choice>
+			<choice num="2_2">12_4</choice>
+			<choice num="2_3">12_4</choice>
+			<choice num="3_1">12_3</choice>
+			<choice num="3_2">12_3</choice>
+			<choice num="3_3">12_3</choice>
+		</results>
+	</dPoint>	
+	<dPoint num="11_5" date="Game over" isNewsflash="false" isIntervention="false" endingType="bad">
+		<text>Yuschenko's show of strength tipped Yanukovych supporters over the edge. Violence has erupted, just as you were closing in on successful, peaceful reform. Try again, and remember that your decisions matter, all the way through ot the end!</text>
+	</dPoint>
+	<dPoint num="11_6" date="Game over" isNewsflash="false" isIntervention="false" endingType="bad">
+		<text>Yushchenko supporters feel like he should be taking a harder stance in light of his poisoning. A disgruntled group takes matters into their own hands and violence erupts. Try playing again, and remember to avoid violence at all costs.</text>
+	</dPoint>	
+	<dPoint num="12_1" date="Game over" isNewsflash="false" isIntervention="false" endingType="good">
+		<text>International observers arrive in Ukraine. Over 1,000 Canadians are spread across the country, paired with observers from around the world. Observers investigate pre-election conditions: voting place staff, security of the ballot, privacy for voters, and the transparency of the process are all issues. The presence of observers is often enough to stop inappropriate activities, but still, the work can be dangerous.
+
+Campaigning ends at midnight - both sides believe they have a good chance at victory. In the end, Yanukovych emerges victorious. </text>
+	</dPoint>
+	<dPoint num="12_2" date="Game end" isNewsflash="false" isIntervention="false" endingType="good">
+		<text>International observers arrive in Ukraine. Over 1,000 Canadians are spread across the country, paired with observers from around the world. Observers investigate pre-election conditions: voting place staff, security of the ballot, privacy for voters, and the transparency of the process are all issues. The presence of observers is often enough to stop inappropriate activities, but still, the work can be dangerous.
+
+Yanukovych's election tampering fails, thanks to a combination of election reforms and significantly increased number of election observers. Yushchenko takes the victory. </text>
+	</dPoint>
+	<dPoint num="12_3" date="Game end" isNewsflash="false" isIntervention="false" endingType="good">
+		<text>International observers arrive in Ukraine. Over 1,000 Canadians are spread across the country, paired with observers from around the world. Observers investigate pre-election conditions: voting place staff, security of the ballot, privacy for voters, and the transparency of the process are all issues. The presence of observers is often enough to stop inappropriate activities, but still, the work can be dangerous.
+
+Campaigning ends at midnight. Both sides believe they have a good chance at victory. In the end, Yushchenko emerges victorious. </text>
+	</dPoint>		
+	<dPoint num="12_4" date="Game end" isNewsflash="false" isIntervention="false" endingType="good">
+		<text>International observers arrive in Ukraine. Over 1,000 Canadians are spread across the country, paired with observers from around the world. Observers investigate pre-election conditions: voting place staff, security of the ballot, privacy for voters, and the transparency of the process are all issues. The presence of observers is often enough to stop inappropriate activities, but still, the work can be dangerous.
+
+Yushchenko's election tampering fails, thanks to a combination of election reforms and significantly increased number of election observers. Yanukovych takes the victory.</text>
+	</dPoint>		
+</orangeData>

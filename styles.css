@@ -1,0 +1,805 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+}
+
+
+#game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: auto;
+    position: relative;
+    background-color: #cc9922;
+    background-image: url("sprites/rice-paper-2.png"), linear-gradient(#cc9922, #000000);
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+html, body, #game-container {
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    box-sizing: border-box;
+    overscroll-behavior: none;
+}
+
+
+.body,
+.wrapper {
+    /* Break the flow */
+    position: absolute;
+    top: 0px;
+
+    /* Give them all the available space */
+    width: 100%;
+    height: 100%;
+
+    /* Remove the margins if any */
+    margin: 0;
+
+    /* Allow them to scroll down the document */
+    overflow: hidden;
+}
+
+.body {
+    /* Sending body at the bottom of the stack */
+    z-index: 1;
+}
+
+.wrapper {
+    /* Making the wrapper stack above the body */
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-start;
+}
+.politician-row {
+    display: flex;
+    width: 100%;
+    flex-shrink: 1;
+    flex-direction: row;
+    align-items: stretch;
+    margin-bottom: 3rem;
+    min-height: 0;
+}
+
+
+
+.politician-choice-view.politician-choice-view-fill-screen {
+    margin-right: 0;
+    margin-left: 0;
+    max-width: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    width: 100%;
+    flex: none;
+}
+
+.politician-choice-view.politician-choice-view-fill-screen .political-choices {
+    max-width: 100%;
+    border-right: none;
+    border-left: none;
+}
+
+.politician-choice-view.politician-choice-view-fill-screen .politician-image-container {
+    align-self: center;
+}
+.politician-choice-view.politician-choice-view-fill-screen .fake-background {
+    border-right: none;
+    border-left: none;
+}
+
+.politician-choice-view.politician-choice-view-force-hide {
+    max-width: 0px;
+    min-width: 0px;
+    margin-left: 0;
+    display: none;
+}
+
+.politician-choice-view.politician-choice-view-force-hide .politician-name {
+    display: none;
+}
+
+.politician-choice-view-extra-spacer {
+    flex: 1;
+    min-height: 0;
+}
+.info-row {
+    margin-top: 1rem;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: stretch;
+    max-height: 30vh;
+}
+
+.quick-facts {
+    flex-shrink: 1;
+    overflow: auto;
+}
+
+.generic-filler {
+    flex-grow: 1;
+}
+
+.info {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 2px #333 solid;
+    padding: 0.5rem;
+    display: inline-flex;
+    flex-direction: column;
+    color: white;
+    border-radius: 1rem;
+    font-size: 1rem;
+    flex: 1 1 0px;
+    max-width: 360px;
+    max-height: 100%;
+}
+
+.info h1, .info h2, .info h3, .info h4, .info h5, .info h6 {
+    color: rgba(200, 200, 200, 0.8);
+    margin: 0.25rem 0;
+}
+
+.left-aligned-info {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    text-align: right;
+    border-left: none;
+    margin-right: 1rem;
+}
+
+.center-info {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    transition: transform 0.5s, opacity 0.5s;
+    transform-origin: top center;
+}
+
+.center-info-hide {
+    opacity: 0;
+    pointer-events: none;
+}
+
+@media screen and (min-width: 951px) {
+    .center-info-violence {
+        background-color: #74591D;
+        box-shadow: 0px 0px 4px 0px #000;
+        transform: scale(1.5);
+    }
+}
+
+
+.see-info-container {
+    flex: none;
+    display: none;
+}
+
+.real-info {
+    flex-shrink: 1;
+    overflow: auto;
+    display: inline-block;
+}
+
+.right-aligned-info {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+    margin-left: 1rem;
+}
+
+.fake-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    border: 4px white solid;
+    border-top: none;
+    border-bottom: none;
+}
+
+.politician-space {
+    flex-grow: 1;
+    min-width: 2rem;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.make-decision {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 1.25rem;
+    font-size: 125%;
+    flex: none;
+}
+
+.make-decision .fas {
+    text-shadow:
+   -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+     1px 1px 0 white;
+}
+
+@keyframes arrow-right-bounce {
+    0%, 100% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(1rem);
+    }
+}
+
+@keyframes arrow-left-bounce {
+    0%, 100% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(-1rem);
+    }
+}
+
+.make-decision .fa-long-arrow-alt-right {
+    color: #ff9900;
+}
+.make-decision-regular .fa-long-arrow-alt-right {
+    animation: arrow-right-bounce 0.75s infinite;
+}
+
+.make-decision .fa-long-arrow-alt-left {
+    color: rgb(30, 30, 200);
+}
+.make-decision-regular .fa-long-arrow-alt-left {
+    animation: arrow-left-bounce 0.75s infinite;
+}
+
+.decision-text {
+    margin: 0 0.5rem;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.politician-row .politician-space {
+    padding: 0 2rem;
+}
+
+.meter-container {
+    position: relative;
+    flex-grow: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: auto;
+    overflow: visible;
+    display: inline-flex;
+}
+
+.real-meter-container {
+    position: relative;
+    padding: 1rem;
+    display: inline-block;
+    transform: translateY(3rem);
+}
+
+.meter-background {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 4px black solid;
+    border-bottom: none;
+}
+.meter-label {
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.meter-base {
+    max-width: 100%;
+    width: 200px;
+    position: relative;
+}
+.pivot-point {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+    height: 0px;
+    transform-origin: center center;
+}
+.meter-needle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-85%, -50%);
+    width: 50%;
+}
+.meter {
+    position: relative;
+    line-height: 0;
+    display: inline-block;
+}
+
+.swal-meter-container {
+    position: relative;
+    max-width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.swal-meter-container .meter-background {
+    display: none;
+}
+
+@media screen and (max-width: 950px) {
+    .see-info-container {
+        display: inline-block;
+    }
+    .real-info {
+        display: none;
+    }
+    .meter-container > * {
+        display: none;
+        padding: 0;
+    }
+    .quick-facts-info {
+        display: none;
+    }
+    .date-info {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        justify-content: center;
+        flex-grow: 1;
+        margin-right: 0;
+        max-width: 100%;
+        align-items: center;
+    }
+    .extra-info .generic-filler {
+        display: none;
+    }
+}
+
+.politician-choice-view {
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-grow: 0;
+    max-height: 100%;
+    max-width: 360px;
+}
+
+.start-button {
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    color: white;
+    background-color: #ff9900;
+    font-size: 2rem;
+    border-color: #e69900;
+}
+
+.politician-choice-view .fake-background {
+    background-image: url("sprites/white-paperboard.png");
+}
+
+.politician-choice-view-left:not(.politician-choice-view-fill-screen) {
+    border-top-right-radius: 1rem;
+    margin-right: 2rem;
+}
+
+.title {
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3rem;
+}
+
+.swal-politician-image {
+    background: radial-gradient(transparent 50%, black);
+    max-height: 30vh;
+    height: 300px;
+}
+
+.credits {
+    color: white;
+    font-size: 0.5rem;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.credits a:visited {
+    color: white;
+}
+
+.politician-choice-view-right {
+    border-top-left-radius: 1rem;
+    margin-left: 2rem;
+}
+
+
+.politician-image {
+    max-width: 100%;
+    position: relative;
+    min-height: 0;
+    overflow: hidden;
+}
+.politician-image-container {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    overflow: hidden;
+    padding: 1rem 1rem 0 1rem;
+}
+.politician-image-container .background-wrapper {
+    position: relative;
+    max-height: 100%;
+}
+
+.color-blue.politician-choice-view .fake-background {
+    background-color: rgb(30, 30, 200);
+}
+.color-orange.politician-choice-view .fake-background {
+    background-color: #ff9900;
+}
+.political-choices {
+    display: inline-flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 100%;
+    max-height: 20vh;
+    border-radius: inherit;
+    border: 4px white solid;
+    border-bottom: none;
+    overflow: auto;
+    position: relative;
+    flex-shrink: 1;
+}
+.politician-choice-view .fake-background, .political-choices {
+    transition: transform 0.5s;
+}
+
+.politician-choice-view-left.politician-choice-view-hide-choices .fake-background, .politician-choice-view-left.politician-choice-view-hide-choices .political-choices {
+    transform: translateX(-100%);
+}
+.politician-choice-view-right.politician-choice-view-hide-choices .fake-background, .politician-choice-view-right.politician-choice-view-hide-choices .political-choices {
+    transform: translateX(100%);
+}
+
+.date-row {
+    display: flex;
+    height: 1.1em;
+    align-items: flex-start;
+    justify-content: flex-end;
+    overflow: visible;
+}
+
+.undo-button {
+    margin-right: auto;
+    
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding: 0 1rem;
+    transform: translateY(-50%);
+    border: none;
+    cursor: pointer;
+    
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s;
+}
+
+.undo-button-visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.undo-button .undo-button-i {
+    font-size: 175%;
+}
+.undo-button-i {
+    color: white;
+    -webkit-text-stroke: 1px #80cee8;
+    text-stroke: 1px #80cee8;
+    font-weight: bold;
+}
+
+.political-choices, .politician-image-container {
+    max-width: 33vw;
+}
+
+@media screen and (max-width: 1100px) {
+    .political-choices, .politician-image-container {
+        max-width: 50vw;
+    }
+}
+
+.continue-button {
+    background: #444;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    transform: translateY(-100%);
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.75rem;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.5s;
+}
+
+.continue-button:disabled {
+    cursor: default;
+}
+@keyframes continue-ready {
+    0%, 100% {
+        transform: translateY(0px) scale(1);
+    }
+    50% {
+        transform: translateY(0px) scale(1.1);
+    }
+}
+.continue-button-visible {
+    transform: translateY(0px);
+    box-shadow: 0px 0px 4px 0px #000;
+    /*
+    animation: continue-ready 0.75s ease;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    */
+}
+
+.political-choice-button {
+    background-color: transparent;
+    padding: 1rem;
+    color: white;
+    text-align: left;
+    backface-visibility: hidden;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+    border: none;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    text-shadow:
+   -1px -1px 0 rgba(0, 0, 0, 0.4),  
+    1px -1px 0 rgba(0, 0, 0, 0.4),
+    -1px 1px 0 rgba(0, 0, 0, 0.4),
+     1px 1px 0 rgba(0, 0, 0, 0.4);
+}
+.political-choice-button span {
+    position: relative;
+    outline: none;
+}
+
+
+
+.political-choice-button::-moz-focus-inner {
+    border: 0;
+}
+  
+  
+.political-choice-button.button-selected {
+    cursor: default;
+}
+
+.extra-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: none;
+    position: relative;
+}
+
+.extra-info-grow {
+    margin-bottom: auto;
+}
+.political-choice-button::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: white;
+    display: block;
+    content: '';
+    transform: scale(0);
+    opacity: 0.2;
+}
+.political-choice-button:hover::before {
+    transform: scale(1);
+    transition: transform 0.2s linear;
+    will-change: opacity;
+}
+.political-choice-button:active::before {
+    transition: opacity 0.1s linear;
+    opacity: 0.3;
+}
+.political-choice-button.button-selected::before {
+    transform: scale(1);
+    opacity: 0.3;
+}
+
+.background-halfcircle, .circle-outline {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.background-halfcircle {
+    transform: translateY(25%);
+    width: 100%;
+    padding-top: 100%; 
+}
+
+.politician-choice-view-left .circle-outline:not(.circle-outline-fill-screen) {
+    border-top-left-radius: 0;
+}
+
+.politician-choice-view-left .fake-background, .politician-choice-view-left .political-choices, .politician-choice-view-left .circle-outline:not(.circle-outline-fill-screen) {
+    border-left: none;
+}
+
+.politician-choice-view-right .fake-background, .politician-choice-view-right .political-choices, .politician-choice-view-right .circle-outline:not(.circle-outline-fill-screen) {
+    border-right: none;
+}
+
+.politician-choice-view-right .circle-outline:not(.circle-outline-fill-screen) {
+    border-top-right-radius: 0;
+}
+
+.circle-outline {
+    transform: translateY(0.5rem) translateY(25%);
+    width: calc(100%);
+    background-image: url("sprites/white-paperboard.png");
+    padding-top: calc(100%);
+    border: 4px white solid;
+}
+
+.color-blue .background-halfcircle {
+    background-color: lightblue;
+}
+.color-orange .background-halfcircle {
+    background-color: #ffcc66;
+}
+
+
+.politician-radio-hide {
+    position: absolute;
+    visibility: hidden;
+}
+
+.politician-radio-hide:checked + label {
+    border: 4px white solid;
+    cursor: default;
+}
+.politician-select-button {
+    border-radius: 50%;
+    cursor: pointer;
+    width: 1em;
+    height: 1em;
+}
+.politician-select-button-left, .color-blue .circle-outline {
+    background-color: rgb(30, 30, 200);
+}
+.politician-select-button-right, .color-orange .circle-outline {
+    background-color: #ff9900;
+}
+.politician-name {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(50%);
+    width: calc(100% + 1rem);
+    border: 4px white solid;
+    box-shadow: 0px 0px 2px 2px #888;
+    text-overflow: ellipsis;
+}
+
+
+
+.politician-name.politician-name-fill-screen {
+    width: 100%;
+    border-left: none;
+    border-right: none;
+}
+.politician-name:not(.politician-name-fill-screen) {
+    border-radius: 1rem;
+}
+
+@media screen and (max-width: 610px) {
+    .politician-name {
+        font-size: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        font-weight: bold;
+    }
+}
+
+.color-blue .politician-name {
+    background-color: rgb(30, 30, 200);
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: none;
+    left: 0;
+}
+.color-orange .politician-name {
+    background-color: #ff9900;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+    transform: translateY(50%);
+    right: 0;
+}
+
+.extra-info-grow {
+    justify-content: center;
+    align-items: center;
+}
+
+/* IE hax */
+@media all and (-ms-high-contrast:none)
+{
+     .politician-image {
+        max-width: 350px;
+    }
+    .politician-row {
+        flex-grow: 1;
+        height: 60vh;
+        min-height: 0;
+        align-self: flex-end;
+        justify-self: flex-end;
+    }
+    .extra-info {
+        height: 20vh;
+    }
+    .center-info {
+        overflow: auto;
+    }
+}
