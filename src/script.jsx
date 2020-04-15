@@ -192,7 +192,7 @@ window.onload = async function() {
         const fireInitialSlideshow = async() => {
             await Swal.fire({
                 title: 'Instructions',
-                text: "In just a few moments, you'll find yourself taking place in the 2004 Ukranian Orange Revolution. Your job is to make decisions for the two main presidential candidates. Make your decisions wisely - the goal is to lead the country through fair elections without violence."
+                html: "In just a few moments, you'll find yourself taking place in the 2004 Ukranian Orange Revolution. Your job is to make decisions for the two main presidential candidates. Make your decisions wisely - the goal is to lead the country through fair elections without violence.<p></p><b>Note: on some devices, you may need to scroll in order to see all the choices. There are usually 3 in total.</b>"
             });
             await Swal.fire({
                 title: 'Viktor Yanukovych',
